@@ -1,0 +1,24 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "1": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "2": {
+      "item": "ultrametals:ironstick"
+    }
+  },
+  "result": {
+    "item": "ultrametals:cobaltsword",
+    "count": 1
+  }
+}

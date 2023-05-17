@@ -1,0 +1,13 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultrametals:titaniumblock"
+    }
+  ],
+  "result": {
+    "item": "ultrametals:titaniumingot",
+    "count": 9
+  }
+}

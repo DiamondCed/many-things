@@ -1,0 +1,404 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 4s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"Magma Sword\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 4s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"Magma Axe\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 4s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"Magma Pickaxe\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 4s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"Magma Shovel\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 4s, id: \"minecraft:fire_aspect\"}], display: {Name: '{\"text\":\"Magma Hoe\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,wither_attack:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Withered Sword\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stone_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,wither_attack:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Withered Axe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stone_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,wither_attack:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Withered Pickaxe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stone_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,wither_attack:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Withered Shovel\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:stone_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,wither_attack:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Withered Hoe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:flint_and_steel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{other_ability:1b,nether_flint:1b,CustomModelData: 1111111, display: {Name: '{\"text\":\"Burning Flint And Steel\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{bow_ability:1b,nether_bow:1b,RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 4s, id: \"minecraft:flame\"},{lvl: 1s, id: \"minecraft:infinity\"}], display: {Name: '{\"text\":\"Magma Bow\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{bow_ability:1b,wither_bow:1b,CustomModelData: 4111111, display: {Name: '{\"text\":\"Wither Bow\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:golden_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:golden_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:flint_and_steel"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:nether_wart",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:saddle"
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:golden_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:iron_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:diamond_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

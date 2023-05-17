@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"item/swords/iron/lapis"
+		},
+		{
+			"predicate":{
+				"custom_model_data":2
+			},
+			"model":"item/swords/iron/redstone"
+		},
+		{
+			"predicate":{
+				"custom_model_data":3
+			},
+			"model":"item/swords/iron/gold"
+		},
+		{
+			"predicate":{
+				"custom_model_data":4
+			},
+			"model":"item/swords/iron/emerald"
+		},
+		{
+			"predicate":{
+				"custom_model_data":5
+			},
+			"model":"item/swords/iron/diamond"
+		},
+		{
+			"predicate":{
+				"custom_model_data":6
+			},
+			"model":"item/swords/iron/amethyst"
+		},
+		{
+			"predicate":{
+				"custom_model_data":7
+			},
+			"model":"item/swords/iron/amber"
+		}
+	]
+}

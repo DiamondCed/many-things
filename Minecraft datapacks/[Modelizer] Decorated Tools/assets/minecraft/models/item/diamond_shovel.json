@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_shovel"
+  },
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"item/shovels/diamond/lapis"
+		},
+		{
+			"predicate":{
+				"custom_model_data":2
+			},
+			"model":"item/shovels/diamond/redstone"
+		},
+		{
+			"predicate":{
+				"custom_model_data":3
+			},
+			"model":"item/shovels/diamond/gold"
+		},
+		{
+			"predicate":{
+				"custom_model_data":4
+			},
+			"model":"item/shovels/diamond/emerald"
+		},
+		{
+			"predicate":{
+				"custom_model_data":5
+			},
+			"model":"item/shovels/diamond/diamond"
+		},
+		{
+			"predicate":{
+				"custom_model_data":6
+			},
+			"model":"item/shovels/diamond/amethyst"
+		},
+		{
+			"predicate":{
+				"custom_model_data":7
+			},
+			"model":"item/shovels/diamond/amber"
+		}
+	]
+}

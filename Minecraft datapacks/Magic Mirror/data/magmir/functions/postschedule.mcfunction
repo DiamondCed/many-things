@@ -1,0 +1,1 @@
+execute as @e[tag=spawntp2] at @s in overworld run function magmir:tpplayer

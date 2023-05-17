@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultrametals:blocks/carbidium_block",
+    "up": "ultrametals:blocks/carbidium_block",
+    "north": "ultrametals:blocks/carbidium_block",
+    "east": "ultrametals:blocks/carbidium_block",
+    "south": "ultrametals:blocks/carbidium_block",
+    "west": "ultrametals:blocks/carbidium_block",
+    "particle": "ultrametals:blocks/carbidium_block"
+  }
+}

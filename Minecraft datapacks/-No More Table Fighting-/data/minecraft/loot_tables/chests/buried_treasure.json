@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/buried_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:C/buried_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:D/buried_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/buried_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/buried_treasure"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

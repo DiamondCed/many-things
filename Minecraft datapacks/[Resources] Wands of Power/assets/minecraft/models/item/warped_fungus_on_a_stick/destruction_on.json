@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_wand",
+	"textures": {
+		"layer0": "item/des/des_on_strong_base",
+		"layer1": "item/des/des_on_overlay"
+	}
+}

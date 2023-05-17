@@ -1,0 +1,42 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "1": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "2": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "3": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "4": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "5": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "6": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "7": {
+      "item": "ultrametals:titaniumnugget"
+    },
+    "8": {
+      "item": "ultrametals:titaniumnugget"
+    }
+  },
+  "result": {
+    "item": "ultrametals:titaniumingot",
+    "count": 1
+  }
+}

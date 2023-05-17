@@ -1,0 +1,3 @@
+#1/10 chance of swapping
+execute if predicate bundleofholding:swap_trade run data modify entity @s Offers.Recipes[-1] set value {maxUses:1,buyB:{id:"minecraft:air",Count:1b},buy:{id:"minecraft:emerald",Count:64b},sell:{id:"minecraft:bundle",Count:1b,tag:{bundleOfHolding:1b,HideFlags:32,display:{Name:'{"text":"Bundle of Holding","italic":false,"color":"yellow"}'}}},xp:1,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0,rewardExp:1b}
+tag @s add attempt_boh

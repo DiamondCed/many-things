@@ -1,0 +1,6 @@
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:1,customRecord:1b,recordId:1b,display:{Lore:['{"text":"C418 - Credits","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:2,customRecord:1b,recordId:2b,display:{Lore:['{"text":"C418 - Creative Ambient","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:3,customRecord:1b,recordId:3b,display:{Lore:['{"text":"C418 - Ambient","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:4,customRecord:1b,recordId:4b,display:{Lore:['{"text":"C418 - The End","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:5,customRecord:1b,recordId:5b,display:{Lore:['{"text":"C418 - Main Menu","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:6,customRecord:1b,recordId:6b,display:{Lore:['{"text":"C418 - Underwater","color":"gray","italic":"false"}']}}

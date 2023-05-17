@@ -1,0 +1,24 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "1": {
+      "item": "ultrametals:ironstick"
+    },
+    "2": {
+      "item": "ultrametals:ironstick"
+    }
+  },
+  "result": {
+    "item": "ultrametals:adamantiumshovel",
+    "count": 1
+  }
+}

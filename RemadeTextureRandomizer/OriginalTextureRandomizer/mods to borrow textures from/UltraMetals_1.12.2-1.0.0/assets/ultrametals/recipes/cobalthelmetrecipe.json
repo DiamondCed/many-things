@@ -1,0 +1,29 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "1": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "2": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "3": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "5": {
+      "item": "ultrametals:cobaltingot"
+    }
+  },
+  "result": {
+    "item": "ultrametals:cobaltarmorhelmet",
+    "count": 1
+  }
+}

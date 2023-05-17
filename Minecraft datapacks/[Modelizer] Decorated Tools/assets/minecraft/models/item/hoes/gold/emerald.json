@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/golden_hoe",
+  "textures": {
+		"layer1": "minecraft:tool_gems/hoe/emerald"
+  }
+}

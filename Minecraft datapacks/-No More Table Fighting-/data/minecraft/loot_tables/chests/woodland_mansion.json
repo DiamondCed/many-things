@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/woodland_mansion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:C/woodland_mansion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:D/woodland_mansion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/woodland_mansion"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

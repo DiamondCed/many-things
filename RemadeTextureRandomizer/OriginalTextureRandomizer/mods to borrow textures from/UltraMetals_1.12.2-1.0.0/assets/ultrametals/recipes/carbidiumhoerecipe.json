@@ -1,0 +1,27 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "1": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "3": {
+      "item": "ultrametals:obsidianstick"
+    },
+    "5": {
+      "item": "ultrametals:obsidianstick"
+    }
+  },
+  "result": {
+    "item": "ultrametals:carbidiumhoe",
+    "count": 1
+  }
+}

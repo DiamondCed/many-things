@@ -1,0 +1,13 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultrametals:cobaltblock"
+    }
+  ],
+  "result": {
+    "item": "ultrametals:cobaltingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "1": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "2": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "3": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "4": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "5": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "6": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "7": {
+      "item": "ultrametals:carbidiumingot"
+    },
+    "8": {
+      "item": "ultrametals:carbidiumingot"
+    }
+  },
+  "result": {
+    "item": "ultrametals:carbidiumblock",
+    "count": 1
+  }
+}

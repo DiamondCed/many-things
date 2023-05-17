@@ -1,0 +1,15 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/flower_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 25
+		    },
+		    "model": "item/flower_banner_pattern/nether_portal_charm"
+		 }
+	]
+}

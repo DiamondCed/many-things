@@ -1,0 +1,12 @@
+{
+  "type": "cavern:cavern",
+  "generator": {
+    "biome_source": {
+      "biome":"minecraft:mountains",
+      "type": "minecraft:fixed"
+    },
+    "seed": 0,
+    "settings": "minecraft:caves",
+    "type": "minecraft:noise"
+  }
+}

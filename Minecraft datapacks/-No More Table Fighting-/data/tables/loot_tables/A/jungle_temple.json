@@ -1,0 +1,196 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 6
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Golden Chalice\\\"}\"},SkullOwner:{Id:\"042ae8d5-ac66-428d-a429-1e969aa056bf\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1MWIyYzMxMWFjZDQ4ZTA2ZjcxNTA4YzY4NzM1ZmU5ZjNhNGY0ZDc1YjllZjFhMjRmYTEzMzNkNzcifX19\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Potted Bush\\\"}\"},SkullOwner:{Id:\"307c54bd-abdb-430f-b88f-039bdcdb7080\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWExZmJlZjNkMGM1MWFkNmM3MTNhYTIwYzQyZGIxODM0MzRjZWM0ZmI2M2E1YTNlYWExMDFhZDNjNWY3NWQxNSJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Voodoo Doll\\\"}\"},SkullOwner:{Id:\"7f1754b7-c29a-4665-9e5b-0932c63309e8\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1YWZmNjlhNjk5ODkyOTQ3OTY5YzczNWY3MzA2ZDE4YWNiMDYxNzUxNWNjN2I0NDkxNGNkMTZkODgyMGQ1MiJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Sack of Herbs\\\"}\"},SkullOwner:{Id:\"d4ce6d42-be9a-4586-b57a-56b097344532\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3NDIzZDVjY2U0YTQ3MmE3NjBjZTVlODYyY2EzNWY3MDU4ZDU4N2I3ZWFiNjllYmVjOTIwYzc3M2U3MzA3In19fQ==\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Flowerpot\\\"}\"},SkullOwner:{Id:\"495db138-92f3-4e74-bdc6-a8cad1133f92\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmM2FkOTY1NTQwM2JkNzIxODEzMjA2NDJhMTM5NTM0ZjQ3MWU1YzQyNzk1NjQ0Zjk4MzNiNDI0ZDdmYSJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Redstone Skull\\\"}\"},SkullOwner:{Id:\"0a82fb5e-2b26-4a80-9f0a-51ee6aa9742a\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Jungle Drum\\\"}\"},SkullOwner:{Id:\"4b950cfd-41b9-42e5-956e-bd0d6c653a4f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdiZWQ4ZTdhOGNkYjQ2N2ZjZjU5ZmIzYjZjYzZlYzg2ODUzN2VmZGM3MzU2YmQxNGE5NjFiNDhhMDQ3OWFkZiJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Bamboo Shoots\\\"}\"},SkullOwner:{Id:\"3c388c88-9bb5-4fa8-b300-f71e9066a63c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVlODRkNmYyZGJkZjdhM2M5MTlmNzdlYzIyZTZlZTI2NjFlMDE3M2E4YTk3MWUxMWM5ODAwMjIzNGU2NDE3ZiJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Bamboo\\\"}\"},SkullOwner:{Id:\"cbf7d608-46fc-4157-9f2f-ba09f27248e0\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg3NTAzMDI2NTEyYmUyZTQxN2NkZWUzY2Q3ODMzOWM0Y2FmMDljYWI1MjgyMzY4NjU3MmQwMTJlOWQxOTgwMiJ9fX0=\"}]}}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					],
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					],
+					"weight": 16
+				},
+				{
+					"type": "item",
+					"name": "minecraft:saddle",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_horse_armor",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_horse_armor",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_horse_armor",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:9,Duration:600},{Id:17,Amplifier:4,Duration:600},{Id:19,Duration:600}],CustomPotionColor:8625180,display:{Name:\"{\\\"text\\\":\\\"Sickness in a Bottle\\\"}\"}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

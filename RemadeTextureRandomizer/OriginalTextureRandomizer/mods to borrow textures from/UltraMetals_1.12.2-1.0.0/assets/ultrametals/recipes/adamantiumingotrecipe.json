@@ -1,0 +1,37 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultrametals:titaniumingot"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "ultrametals:titaniumingot"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "ultrametals:titaniumingot"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "ultrametals:titaniumingot"
+    }
+  ],
+  "result": {
+    "item": "ultrametals:adamantiumingot",
+    "count": 2
+  }
+}

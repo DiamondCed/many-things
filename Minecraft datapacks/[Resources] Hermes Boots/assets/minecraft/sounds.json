@@ -1,0 +1,11 @@
+{
+  "hermes_boots": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"hermes_boots",
+     "stream": true
+     }
+    ]
+  }
+ }

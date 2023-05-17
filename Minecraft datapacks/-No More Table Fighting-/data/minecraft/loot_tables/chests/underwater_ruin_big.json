@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/underwater_ruin_big"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:C/underwater_ruin_big"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:D/underwater_ruin_big"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/underwater_ruin_big"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/underwater_ruin_big"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

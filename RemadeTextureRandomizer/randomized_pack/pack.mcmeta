@@ -1,0 +1,13 @@
+{
+   "pack": {
+      "pack_format": 5,
+      "description": "Replaces diamonds with a different ore"
+   },
+   "language": {
+      "en_sadcan": {
+         "name": "English but without diamonds",
+         "region": "Sad Canada",
+         "bidirectional": false
+      }
+   }
+}

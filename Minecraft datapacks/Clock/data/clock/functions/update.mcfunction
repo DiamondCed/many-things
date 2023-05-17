@@ -1,0 +1,10 @@
+scoreboard players enable @a showclock
+bossbar set clock players @a
+execute if entity @a[scores={showclock=-1}] run bossbar set clock visible false
+execute if entity @a[scores={showclock=1..}] run bossbar set clock visible true
+execute if entity @a[scores={showclock=1}] run bossbar set clock name [{"text":"|","color":"white","bold":"true"},{"text":"______Day______","color":"yellow","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"_____Night_____","color":"blue","bold":"false"},{"text":"|","color":"white","bold":"true"}]
+execute if entity @a[scores={showclock=2}] run bossbar set clock name [{"text":"|","color":"white","bold":"true"},{"text":"_______________","color":"yellow","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"_______________","color":"blue","bold":"false"},{"text":"|","color":"white","bold":"true"}]
+execute if entity @a[scores={showclock=3}] run bossbar set clock name [{"text":"|","color":"white","bold":"true"},{"text":"__","color":"yellow","bold":"true"},{"text":"|","color":"white","bold":"true"},{"text":"__Work__","color":"green","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"___","color":"yellow","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"_____Sleep_____","color":"blue","bold":"false"},{"text":"|","color":"white","bold":"true"}]
+execute if entity @a[scores={showclock=4}] run bossbar set clock name [{"text":"|","color":"white","bold":"true"},{"text":"__","color":"yellow","bold":"true"},{"text":"|","color":"white","bold":"true"},{"text":"________","color":"green","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"___","color":"yellow","bold":"false"},{"text":"|","color":"white","bold":"true"},{"text":"_______________","color":"blue","bold":"false"},{"text":"|","color":"white","bold":"true"}]
+scoreboard players set @a showclock 0
+execute store result bossbar clock value run time query daytime

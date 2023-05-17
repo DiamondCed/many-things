@@ -1,0 +1,34 @@
+
+{
+	"description": "Basically just air and liquids for now",
+	"values": [
+		{
+			"id": "minecraft:air",
+			"required": false
+		},
+		{
+			"id": "minecraft:cave_air",
+			"required": false
+		},
+		{
+			"id": "minecraft:void_air",
+			"required": false
+		},
+		{
+			"id": "minecraft:water",
+			"required": false
+		},
+		{
+			"id": "minecraft:lava",
+			"required": false
+		},
+		{
+			"id": "minecraft:flowing_water",
+			"required": false
+		},
+		{
+			"id": "minecraft:flowing_lava",
+			"required": false
+		}
+	]
+}

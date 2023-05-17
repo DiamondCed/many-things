@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"item/swords/diamond/lapis"
+		},
+		{
+			"predicate":{
+				"custom_model_data":2
+			},
+			"model":"item/swords/diamond/redstone"
+		},
+		{
+			"predicate":{
+				"custom_model_data":3
+			},
+			"model":"item/swords/diamond/gold"
+		},
+		{
+			"predicate":{
+				"custom_model_data":4
+			},
+			"model":"item/swords/diamond/emerald"
+		},
+		{
+			"predicate":{
+				"custom_model_data":5
+			},
+			"model":"item/swords/diamond/diamond"
+		},
+		{
+			"predicate":{
+				"custom_model_data":6
+			},
+			"model":"item/swords/diamond/amethyst"
+		},
+		{
+			"predicate":{
+				"custom_model_data":7
+			},
+			"model":"item/swords/diamond/amber"
+		}
+	]
+}

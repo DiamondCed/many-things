@@ -1,0 +1,39 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "2": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "3": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "4": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "5": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "6": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "7": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "8": {
+      "item": "ultrametals:titaniumingot"
+    }
+  },
+  "result": {
+    "item": "ultrametals:titaniumarmorbody",
+    "count": 1
+  }
+}

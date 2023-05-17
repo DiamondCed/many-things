@@ -1,0 +1,26 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:marble"
+    },
+    "1": {
+      "item": "ultrametals:marble"
+    },
+    "2": {
+      "item": "ultrametals:marble"
+    },
+    "3": {
+      "item": "ultrametals:marble"
+    }
+  },
+  "result": {
+    "item": "ultrametals:polishedmarble",
+    "count": 4
+  }
+}

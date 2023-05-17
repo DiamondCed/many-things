@@ -1,0 +1,37 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    },
+    {
+      "item": "ultrametals:adamantiumingot"
+    }
+  ],
+  "result": {
+    "item": "ultrametals:adamantiumblock",
+    "count": 1
+  }
+}

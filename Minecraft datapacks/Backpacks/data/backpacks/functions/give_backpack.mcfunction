@@ -1,0 +1,1 @@
+give @s globe_banner_pattern{isBackpack:1b,BagItems:[],HideFlags:32,CustomModelData:38,display:{Name:'{"text":"Backpack","italic":"false"}'}}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values":[
+	"minecraft:diamond_ore",
+	"minecraft:diamond_block",
+	"minecraft:blue_ice",
+	"minecraft:netherite_block",
+	"minecraft:ancient_debris",
+	
+	
+	"#minecraft:shulker_boxes",
+	"minecraft:wither_skeleton_skull",
+	"minecraft:dragon_egg",
+	
+	
+	"minecraft:beacon",
+	"minecraft:conduit"
+  ]
+}

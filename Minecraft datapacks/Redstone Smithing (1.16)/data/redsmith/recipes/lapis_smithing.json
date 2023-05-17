@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:gold_nugget"
+  },
+  "addition": {
+    "item": "minecraft:warped_roots"
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count":1
+  }
+}

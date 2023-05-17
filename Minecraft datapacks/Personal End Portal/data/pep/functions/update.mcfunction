@@ -1,0 +1,4 @@
+execute as @e[type=item, nbt={Item:{id:"minecraft:ender_eye",Count:12b}}] at @s if block ~ ~-1 ~ obsidian if block ~-1 ~-1 ~ end_stone if block ~1 ~-1 ~ end_stone if block ~ ~-1 ~-1 end_stone if block ~ ~-1 ~1 end_stone if block ~1 ~-1 ~1 purpur_pillar[axis=y] if block ~1 ~-1 ~-1 purpur_pillar[axis=y] if block ~-1 ~-1 ~1 purpur_pillar[axis=y] if block ~1 ~-1 ~1 purpur_pillar[axis=y] if block ~1 ~ ~1 purpur_pillar[axis=y] if block ~1 ~ ~-1 purpur_pillar[axis=y] if block ~-1 ~ ~1 purpur_pillar[axis=y] if block ~1 ~ ~1 purpur_pillar[axis=y] if block ~1 ~1 ~1 purpur_pillar[axis=y] if block ~1 ~1 ~-1 purpur_pillar[axis=y] if block ~-1 ~1 ~1 purpur_pillar[axis=y] if block ~1 ~1 ~1 purpur_pillar[axis=y] run tag @s add toportal
+
+execute as @e[tag=toportal] at @s run setblock ~ ~-1 ~ end_portal
+execute as @e[tag=toportal] at @s run kill @s

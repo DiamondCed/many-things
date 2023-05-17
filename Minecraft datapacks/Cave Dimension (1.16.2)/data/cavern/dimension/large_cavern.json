@@ -1,0 +1,12 @@
+{
+  "type": "cavern:cavern",
+  "generator": {
+    "biome_source": {
+      "biome":"minecraft:stone_shore",
+      "type": "minecraft:fixed"
+    },
+    "seed": 0,
+    "settings": "minecraft:caves",
+    "type": "minecraft:noise"
+  }
+}

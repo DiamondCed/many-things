@@ -1,0 +1,39 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/structure_void"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 200
+		    },
+		    "model": "item/structure_void/ghast_stem_0"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 201
+		    },
+		    "model": "item/structure_void/ghast_stem_1"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 202
+		    },
+		    "model": "item/structure_void/ghast_stem_2"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 203
+		    },
+		    "model": "item/structure_void/ghast_stem_3"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 204
+		    },
+		    "model": "item/structure_void/ghast_stem_tear"
+		 }
+	]
+}

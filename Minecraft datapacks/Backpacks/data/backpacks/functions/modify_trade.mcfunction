@@ -1,0 +1,2 @@
+tag @s add bpSwapTrade
+execute if predicate backpacks:swap_trade run data modify entity @s Offers.Recipes[-1] set value {maxUses:3, buyB:{id:"minecraft:air",Count:1b}, buy:{id:"minecraft:emerald",Count:24b}, sell:{id:"globe_banner_pattern",Count:1b,tag:{isBackpack:1b,BagItems:[],HideFlags:32,CustomModelData:38,display:{Name:'{"text":"Backpack","italic":"false"}'}}}, xp:30, uses:0, priceMultiplier:0.2f, specialPrice:0, demand:-24, rewardExp:1b}

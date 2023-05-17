@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/nether_bridge"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:C/nether_bridge"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:D/nether_bridge"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/nether_bridge"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/nether_bridge"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

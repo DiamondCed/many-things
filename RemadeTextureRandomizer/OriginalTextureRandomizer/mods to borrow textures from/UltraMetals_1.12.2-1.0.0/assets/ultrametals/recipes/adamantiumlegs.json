@@ -1,0 +1,36 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "1": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "2": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "3": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "5": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "6": {
+      "item": "ultrametals:adamantiumingot"
+    },
+    "8": {
+      "item": "ultrametals:adamantiumingot"
+    }
+  },
+  "result": {
+    "item": "ultrametals:adamantiumarmorlegs",
+    "count": 1
+  }
+}

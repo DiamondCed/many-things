@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_wand",
+	"textures": {
+		"layer0": "item/def/def_on_alt_pink_base",
+		"layer1": "item/def/def_on_alt_pink_overlay"
+	}
+}

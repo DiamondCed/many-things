@@ -1,0 +1,16 @@
+Iron:      ++armor, slow
+	/give @p minecraft:shield{display:{Name:'{"text":"Iron Shield","italic":false}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:bo,Color:0}],Base:0},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"offhand",Amount:6,Operation:0,UUID:[I;1,1,1,1]},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Slot:"offhand",Amount:-0.1,Operation:1,UUID:[I;2,2,2,2]}]}
+
+Gold:      ++health, +luck
+	/give @p minecraft:shield{display:{Name:'{"text":"Golden Shield","italic":false}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:bo,Color:4},{Pattern:mr,Color:0}],Base:4},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Slot:"offhand",Amount:6,Operation:0,UUID:[I;4,4,4,4]},{AttributeName:"generic.luck",Name:"generic.luck",Slot:"offhand",Amount:1,Operation:0,UUID:[I;5,5,5,5]}]}
+
+Diamond:   ++armor, +health
+	/give @p minecraft:shield{display:{Name:'{"text":"Diamond Shield","italic":false}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:sc,Color:0},{Pattern:bts,Color:0},{Pattern:tts,Color:0},{Pattern:bo,Color:3},{Pattern:flo,Color:0}],Base:3},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Slot:"offhand",Amount:4,Operation:0,UUID:[I;6,6,6,6]},{AttributeName:"generic.armor",Name:"generic.armor",Slot:"offhand",Amount:6,Operation:0,UUID:[I;7,7,7,7]}]}
+
+Netherite: Kb resist, ++armor, +health
+	/give @p minecraft:shield{display:{Name:'{"text":"Netherite Shield","italic":false}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:bo,Color:7},{Pattern:mr,Color:0},{Pattern:mc,Color:3}],Base:7},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Slot:"offhand",Amount:4,Operation:0,UUID:[I;8,8,8,8]},{AttributeName:"generic.armor",Name:"generic.armor",Slot:"offhand",Amount:6,Operation:0,UUID:[I;9,9,9,9]},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"offhand",Amount:0.1,Operation:0,UUID:[I;10,10,10,10]}]}
+
+
+//give @p minecraft:shield{BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:bo,Color:7},{Pattern:mr,Color:0},{Pattern:mc,Color:3}],Base:7}} 1
+
+

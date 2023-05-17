@@ -1,0 +1,11 @@
+{
+  "heart_crystal": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"heart_crystal",
+     "stream": true
+     }
+    ]
+  }
+ }

@@ -1,0 +1,21 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/flower_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 4
+		    },
+		    "model": "item/flower_banner_pattern/hermes_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 5
+		    },
+		    "model": "item/flower_banner_pattern/flurry_boots"
+		 }
+	]
+}

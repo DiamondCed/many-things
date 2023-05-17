@@ -1,0 +1,13 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultrametals:adamantiumblock"
+    }
+  ],
+  "result": {
+    "item": "ultrametals:adamantiumingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ultrametals:items/carbidium_pickaxe"
+  }
+}

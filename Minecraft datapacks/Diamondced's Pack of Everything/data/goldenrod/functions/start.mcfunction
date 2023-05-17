@@ -1,0 +1,1 @@
+#tellraw @a {"text":"Golden Rod Pack loaded!","color":"gold"}

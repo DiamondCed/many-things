@@ -1,0 +1,1 @@
+{"condition":"alternative","terms":[{"condition":"weather_check","raining":true},{"condition":"weather_check","thundering":true}]}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{VKnives:1}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vknives2:shot_vknives"
+  }
+}

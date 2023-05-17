@@ -1,0 +1,2 @@
+#give @s glow_item_frame{CustomModelData:1,display:{Name:'{"text":"Quantum Storage Unit","color":"yellow","italic":false}'},EntityTag:{Facing:1b,Silent:1b,Invisible:1b,Fixed:1b,Tags:[qstore,init],Item:{id:"minecraft:barrel",Count:1b,tag:{CustomModelData:1,DeepItems:[]}}}}
+loot give @p loot blocks/quantum_storage

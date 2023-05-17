@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/stronghold_corridor"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:C/stronghold_corridor"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/stronghold_corridor"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/stronghold_corridor"
+                }
+            ]
+        }
+    ]
+}

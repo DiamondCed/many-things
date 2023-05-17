@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 1
+		    },
+		    "model": "item/carrot_on_a_stick/mirror"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 3
+		    },
+		    "model": "item/carrot_on_a_stick/heart"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 17
+		    },
+		    "model": "item/carrot_on_a_stick/wisp_bottle"
+		 }
+	]
+}

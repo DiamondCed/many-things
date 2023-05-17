@@ -1,0 +1,1 @@
+{"condition":"alternative","terms":[{"condition":"location_check","predicate":{"biome":"plains"}},{"condition":"location_check","predicate":{"biome":"sunflower_plains"}}]}

@@ -1,0 +1,5 @@
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:21,customRecord:1b,recordId:21b,display:{Lore:['{"text":"Custom Track 1","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:22,customRecord:1b,recordId:22b,display:{Lore:['{"text":"Custom Track 2","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:23,customRecord:1b,recordId:23b,display:{Lore:['{"text":"Custom Track 3","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:24,customRecord:1b,recordId:24b,display:{Lore:['{"text":"Custom Track 4","color":"gray","italic":"false"}']}}
+give @s minecraft:music_disc_11{HideFlags:32,CustomModelData:25,customRecord:1b,recordId:25b,display:{Lore:['{"text":"Custom Track 5","color":"gray","italic":"false"}']}}

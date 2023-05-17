@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/iron_axe",
+  "textures": {
+		"layer1": "minecraft:tool_gems/axe/amethyst"
+  }
+}

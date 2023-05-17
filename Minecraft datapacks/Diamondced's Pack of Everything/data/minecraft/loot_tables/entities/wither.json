@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{isDebuffWither:1b,CustomModelData:40,display:{Name:'{\"text\":\"Withering Petals\",\"italic\":false,\"color\":\"green\"}'},HideFlags:32}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.33
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

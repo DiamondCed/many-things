@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultrametals:blocks/palladium_brick",
+    "up": "ultrametals:blocks/palladium_brick",
+    "north": "ultrametals:blocks/palladium_brick",
+    "east": "ultrametals:blocks/palladium_brick",
+    "south": "ultrametals:blocks/palladium_brick",
+    "west": "ultrametals:blocks/palladium_brick",
+    "particle": "ultrametals:blocks/palladium_brick"
+  }
+}

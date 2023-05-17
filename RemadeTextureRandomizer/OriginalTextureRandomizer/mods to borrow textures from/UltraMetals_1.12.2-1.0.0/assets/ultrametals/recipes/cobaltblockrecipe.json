@@ -1,0 +1,42 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "1": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "2": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "3": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "4": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "5": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "6": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "7": {
+      "item": "ultrametals:cobaltingot"
+    },
+    "8": {
+      "item": "ultrametals:cobaltingot"
+    }
+  },
+  "result": {
+    "item": "ultrametals:cobaltblock",
+    "count": 1
+  }
+}

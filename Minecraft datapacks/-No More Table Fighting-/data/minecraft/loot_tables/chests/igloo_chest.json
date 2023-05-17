@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/igloo_chest"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/igloo_chest"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/igloo_chest"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:H/igloo_chest"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

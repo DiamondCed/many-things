@@ -1,0 +1,201 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 8
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,ice_attack:1b,RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 6s, id: \"minecraft:sharpness\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Sword\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:stone_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,ice_attack:1b,RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Axe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:stone_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,ice_attack:1b,RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Pickaxe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:stone_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,ice_attack:1b,RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Shovel\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:stone_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{sword_ability:1b,ice_attack:1b,RepairCost:1000,CustomModelData: 2111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Hoe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{bow_ability:1b,ice_bow:1b,RepairCost:1000,CustomModelData: 6111111, Enchantments: [{lvl: 5s, id: \"minecraft:power\"},{lvl: 1s, id: \"minecraft:mending\"}], display: {Name: '{\"text\":\"Ice Bow\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:stone_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:wheat",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_apple"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:mirror/simple_dungeon"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:boots/simple_dungeon"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:clouds/simple_dungeon"
+                }
+            ]
+        }
+    ]
+}

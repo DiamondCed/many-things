@@ -1,0 +1,1 @@
+execute as @e[tag=!armed_stand,type=armor_stand] run function armor_starms:arm 

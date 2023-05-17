@@ -1,0 +1,28 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/fireball_cannon"
+    },
+    "display":{
+        "firstperson_lefthand":{
+            "rotation": [0,90,-25],
+            "translation": [1.13,3.2,-2.1],
+            "scale": [1.5,1.5,1.5]
+        },
+        "firstperson_righthand":{
+            "rotation": [0,-90,25],
+            "translation": [1.13,3.2,-2.1],
+            "scale": [1.5,1.5,1.5]
+        },
+        "thirdperson_lefthand":{
+            "rotation": [-80,-280,40],
+            "translation": [-1,3.25,-2.75],
+            "scale": [1.25,1.25,1.25]
+        },
+        "thirdperson_righthand":{
+            "rotation": [-80,260,-40],
+            "translation": [-1,3.25,-2.75],
+            "scale": [1.25,1.25,1.25]
+        }
+    }
+}

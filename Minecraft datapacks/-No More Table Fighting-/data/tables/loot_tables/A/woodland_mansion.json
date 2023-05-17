@@ -1,0 +1,267 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:lead",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_13",
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_cat",
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:name_tag",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Crate\\\"}\"},SkullOwner:{Id:\"d86659fc-8389-4e51-b0e1-23f4cf3e6b80\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYyMDUxOWI3NDUzNmMxZjg1YjdjN2U1ZTExY2U1YzA1OWMyZmY3NTljYjhkZjI1NGZjN2Y5Y2U3ODFkMjkifX19\"}]}}}"
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:14,Duration:1800,ShowParticles:0b}],CustomPotionColor:11727605,display:{Name:\"{\\\"text\\\":\\\"Potion of True Invisibility\\\"}\",Lore:[\"A more powerful version\",\"of Invisibility, its\",\"recipe lost to time.\"]}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_axe",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Arbor Druid Axe\\\"}\", Lore:[\"Increased chance of saplings\", \"from leaf blocks\"]}, Enchantments:[{id:\"fortune\", lvl:7s}], RepairCost:99}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bread",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Candle (red)\\\"}\"},SkullOwner:{Id:\"4531cac3-1001-474a-a740-20ab1e25d59e\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEzODgyNDhhYzFhOTA1YWNmZWM4MDE3MjkyOTNjZTVlYmE3OGViODlhNzAzYTJiOWQ4N2MxZTVhYzExMDQ3NCJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:red_banner",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Cake\\\"}\", Lore:[\"By Tetrajak\"]}, BlockEntityTag:{Patterns:[{Pattern:ss,Color:0},{Pattern:bri,Color:0},{Pattern:hhb,Color:12},{Pattern:ts,Color:15},{Pattern:bs,Color:15},{Pattern:bo,Color:15}]}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:purple_banner",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Boiling Cauldron\\\"}\", Lore:[\"By Tetrajak\"]}, BlockEntityTag:{Patterns:[{Pattern:bri,Color:8},{Pattern:tl,Color:10},{Pattern:tt,Color:10},{Pattern:sku,Color:10},{Pattern:bs,Color:15},{Pattern:cbo,Color:10},{Pattern:bts,Color:15},{Pattern:bo,Color:10}]}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:melon_seeds",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:pumpkin_seeds",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:beetroot_seeds",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"weight": 10
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_planks",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cobblestone",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:apple",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,403 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 6s, id: \"minecraft:sharpness\"}], display: {Name: '{\"text\":\"Quartz Sword\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "unbreaking",
+                                "smite",
+                                "bane_of_arthropods",
+                                "silk_touch",
+                                "binding_curse",
+                                "vanishing_curse"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.6,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}], display: {Name: '{\"text\":\"Quartz Axe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "unbreaking",
+                                "smite",
+                                "bane_of_arthropods",
+                                "silk_touch",
+                                "binding_curse",
+                                "vanishing_curse"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.6,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}], display: {Name: '{\"text\":\"Quartz Pickaxe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "unbreaking",
+                                "smite",
+                                "bane_of_arthropods",
+                                "silk_touch",
+                                "binding_curse",
+                                "vanishing_curse"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.6,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:golden_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}], display: {Name: '{\"text\":\"Quartz Shovel\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "unbreaking",
+                                "smite",
+                                "bane_of_arthropods",
+                                "silk_touch",
+                                "binding_curse",
+                                "vanishing_curse"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.6,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,CustomModelData: 1111111, Enchantments: [{lvl: 6s, id: \"minecraft:efficiency\"}], display: {Name: '{\"text\":\"Quartz Hoe\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "unbreaking",
+                                "smite",
+                                "bane_of_arthropods",
+                                "silk_touch",
+                                "binding_curse",
+                                "vanishing_curse"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.6,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,sword_ability:1b,glass_attack:1b,CustomModelData: 5111111, Enchantments: [{lvl: 30s, id: \"minecraft:sharpness\"}], display: {Name: '{\"text\":\"Glass Sword\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{bow_ability:1b,quartz_bow:1b,RepairCost:1000,CustomModelData: 5111111, display: {Name: '{\"text\":\"Quartz Bow\",\"color\":\"yellow\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:spider_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:saddle"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:iron_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:diamond_horse_armor"
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type": "empty",
+                    "weight": 15
+                }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:string",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sand",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

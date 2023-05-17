@@ -1,0 +1,8 @@
+Color: [255,255,0]
+Gem type: point.png (17)
+Ore type: rock_crystal.png (18)
+Block type: cobalt.png (7)
+Armor type: adamantium (0)
+Tool type: palladium (8)
+Name: Sunstone
+Arguments: {255 255 0 17 18 7 0 8 Sunstone}

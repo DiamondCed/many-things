@@ -1,0 +1,1 @@
+summon armor_stand ~ ~-0.5 ~ {Marker:1b,Invisible:1b,NoGravity:1b,Tags:["accesspoint"]}

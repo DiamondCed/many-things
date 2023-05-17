@@ -1,0 +1,27 @@
+- Feral claws: +melee speed (aka attack speed) when equipped 	-> Jungle temple chests (cmd 38)
+Debuff accessories:
+- Venomous Gland: Gives melee strikes poison effect		-> Cave spiders (cmd 39)
+- Withering Petals: Gives melee strikes wither effect		-> Wither (not 100% drop, maybe 50% or 33%) (cmd 40)
+- Frost Pebble: Gives melee strikes slowness effect		-> Strays (cmd 41)
+- Weakening Grasp: Gives melee strikes weakness effect		-> Husks (cmd 42)
+- Shulker Eye: Gives melee strikes levitation effect		-> Shulkers (cmd 43)
+All of which can be combined with feral claws to make the following:
+- Venomous Claws: Melee speed, Knockback and Poison		-> Crafting (cmd 44)
+- Withering Claws: Melee speed, Knockback and Wither		-> Crafting (cmd 45)
+- Forst Claws: Melee speed, Knockback and Slowness		-> Crafting (cmd 46)
+- Weakening Claws: Melee speed, Knockback and Weakness		-> Crafting (cmd 47)
+- Shulker Claws: Melee speed, Knockback and Levitation		-> Crafting (cmd 48)
+
+// old plans
+- Titan glove: Increased attack knockback when equipped -> This doesn't work!!
+- Power glove: Combines feral claws and titan glove
+
+All of which can be combined with Power Glove to make:
+- Venomous Gauntlet: Melee speed, Knockback and Poison
+- Withering Gauntlet: Melee speed, Knockback and Wither
+- Webbed Gauntlet: Melee speed, Knockback and Slowness
+- Weakening Gauntlet: Melee speed, Knockback and Weakness
+- Blinding Gauntlet: Melee speed, Knockback and Blindness
+- Shulker Gauntlet: Melee speed, Knockback and Levitation
+These do not stack their melee speed or knockback, but I'll allow the debuffs to stack
+Having two sources of the same debuff does not stack however, too op (and inconvenient to code :P)

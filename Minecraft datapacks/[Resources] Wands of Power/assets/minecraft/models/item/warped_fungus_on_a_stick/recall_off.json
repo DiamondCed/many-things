@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld_wand",
+	"textures": {
+		"layer0": "item/rc/rc_off"
+	}
+}

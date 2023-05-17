@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultrametals:blocks/polished_marble2",
+    "up": "ultrametals:blocks/polished_marble2",
+    "north": "ultrametals:blocks/polished_marble2",
+    "east": "ultrametals:blocks/polished_marble2",
+    "south": "ultrametals:blocks/polished_marble2",
+    "west": "ultrametals:blocks/polished_marble2",
+    "particle": "ultrametals:blocks/polished_marble2"
+  }
+}

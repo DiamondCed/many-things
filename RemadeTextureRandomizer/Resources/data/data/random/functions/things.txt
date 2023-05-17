@@ -1,0 +1,40 @@
+#summon item ~ ~ ~ {Tags:["change"],Item:{id:"minecraft:egg",Count:1b}}
+
+#data modify entity @e[type=item,distance=..10,limit=1,tag=change] Item set from entity DiamondCed SelectedItem
+
+#data modify entity @e[type=item,distance=..2,limit=1,tag=change] Item.tag append value {modified:1}
+
+#data modify entity @e[type=item,distance=..2,limit=1,tag=change] Item.tag.Enchantments append value {lvl:#,id:"minecraft:____"}
+
+#data modify entity @e[type=item,distance=..2,limit=1,tag=change] Item.tag.AttributeModifiers append value {Slot:"__",AttributeName:"generic.__",Amount:#,Operation:0,UUIDMost:1,UUIDLeast:1}
+
+#replaceitem entity @s weapon.mainhand air
+
+#Enchantments:[{},{}]
+#ids:"minecraft:unbreaking"
+#    "minecraft:mending"
+#    "minecraft:efficiency"
+#    "minecraft:fortune"
+#lvl:1s
+
+#AttributeModifiers:[{},{}]
+#Slot:"mainhand"
+#     "head"
+#     "body"
+#     "legs"
+#     "feet"
+#AttributeName:"generic.attackDamage"
+#              "generic.knockbackResistance"
+#              "generic.movementSpeed"
+#              "generic.armor"
+#              "generic.attackSpeed"
+#              "generic.luck"
+#Amount (damage):(range)
+#     (kbresist):0.125 (0.5/4)
+#     (mvmspeed):0.005 (0.02/4)
+#        (armor):(range)
+#     (atkspeed):(range)
+#         (luck):1
+#Operation:0
+#UUIDLeast:1
+#UUIDMost:1

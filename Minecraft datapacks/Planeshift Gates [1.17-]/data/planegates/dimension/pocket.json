@@ -1,0 +1,25 @@
+{
+  "type": "planegates:pocket",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+	  "layers":[
+	    {
+	      "height":255,
+		  "block":"minecraft:air"
+		}
+	  ],
+	  "biome":"minecraft:the_void",
+	  "lakes":false,
+	  "features":false,
+	  "structures":{
+	    "stronghold":{
+		  "distance":1,
+		  "count":1,
+		  "spread":1
+		},
+		"structures":{}
+	  }
+	}
+  }
+}

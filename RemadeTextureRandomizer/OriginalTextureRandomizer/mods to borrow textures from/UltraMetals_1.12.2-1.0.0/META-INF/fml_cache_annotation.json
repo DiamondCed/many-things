@@ -1,0 +1,929 @@
+{
+  "mod/mcreator/mcreator_adamantiumarmor": {
+    "name": "mod/mcreator/mcreator_adamantiumarmor",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "ultrametals:adamantiumarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "ultrametals:adamantiumarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "ultrametals:adamantiumarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "ultrametals:adamantiumarmorboots"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumaxe": {
+    "name": "mod/mcreator/mcreator_adamantiumaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumblock": {
+    "name": "mod/mcreator/mcreator_adamantiumblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumblock"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumbricks": {
+    "name": "mod/mcreator/mcreator_adamantiumbricks",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumbricks"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumhoe": {
+    "name": "mod/mcreator/mcreator_adamantiumhoe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumhoe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumingot": {
+    "name": "mod/mcreator/mcreator_adamantiumingot",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumingot"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumpickaxe": {
+    "name": "mod/mcreator/mcreator_adamantiumpickaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumpickaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumshovel": {
+    "name": "mod/mcreator/mcreator_adamantiumshovel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumshovel"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_adamantiumsword": {
+    "name": "mod/mcreator/mcreator_adamantiumsword",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:adamantiumsword"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumarmor": {
+    "name": "mod/mcreator/mcreator_carbidiumarmor",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "ultrametals:carbidiumarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "ultrametals:carbidiumarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "ultrametals:carbidiumarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "ultrametals:carbidiumarmorboots"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumaxe": {
+    "name": "mod/mcreator/mcreator_carbidiumaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumblock": {
+    "name": "mod/mcreator/mcreator_carbidiumblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumblock"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumbricks": {
+    "name": "mod/mcreator/mcreator_carbidiumbricks",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumbricks"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumhoe": {
+    "name": "mod/mcreator/mcreator_carbidiumhoe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumhoe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumingot": {
+    "name": "mod/mcreator/mcreator_carbidiumingot",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumingot"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumpickaxe": {
+    "name": "mod/mcreator/mcreator_carbidiumpickaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumpickaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumshovel": {
+    "name": "mod/mcreator/mcreator_carbidiumshovel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumshovel"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_carbidiumsword": {
+    "name": "mod/mcreator/mcreator_carbidiumsword",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:carbidiumsword"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltarmor": {
+    "name": "mod/mcreator/mcreator_cobaltarmor",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "ultrametals:cobaltarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "ultrametals:cobaltarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "ultrametals:cobaltarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "ultrametals:cobaltarmorboots"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltaxe": {
+    "name": "mod/mcreator/mcreator_cobaltaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltblock": {
+    "name": "mod/mcreator/mcreator_cobaltblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltblock"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltbricks": {
+    "name": "mod/mcreator/mcreator_cobaltbricks",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltbricks"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobalthoe": {
+    "name": "mod/mcreator/mcreator_cobalthoe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobalthoe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltingot": {
+    "name": "mod/mcreator/mcreator_cobaltingot",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltingot"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltpickaxe": {
+    "name": "mod/mcreator/mcreator_cobaltpickaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltpickaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltshovel": {
+    "name": "mod/mcreator/mcreator_cobaltshovel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltshovel"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_cobaltsword": {
+    "name": "mod/mcreator/mcreator_cobaltsword",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:cobaltsword"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_ironstick": {
+    "name": "mod/mcreator/mcreator_ironstick",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:ironstick"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_marble": {
+    "name": "mod/mcreator/mcreator_marble",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:marble"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_marble$1": {
+    "name": "mod/mcreator/mcreator_marble$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "mod/mcreator/mcreator_obsidianstick": {
+    "name": "mod/mcreator/mcreator_obsidianstick",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:obsidianstick"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumarmor": {
+    "name": "mod/mcreator/mcreator_palladiumarmor",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "ultrametals:palladiumarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "ultrametals:palladiumarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "ultrametals:palladiumarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "ultrametals:palladiumarmorboots"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumaxe": {
+    "name": "mod/mcreator/mcreator_palladiumaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumblock": {
+    "name": "mod/mcreator/mcreator_palladiumblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumblock"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumbricks": {
+    "name": "mod/mcreator/mcreator_palladiumbricks",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumbricks"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumhoe": {
+    "name": "mod/mcreator/mcreator_palladiumhoe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumhoe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumingot": {
+    "name": "mod/mcreator/mcreator_palladiumingot",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumingot"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumnugget": {
+    "name": "mod/mcreator/mcreator_palladiumnugget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumnugget"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumore": {
+    "name": "mod/mcreator/mcreator_palladiumore",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumore"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumore$1": {
+    "name": "mod/mcreator/mcreator_palladiumore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumpickaxe": {
+    "name": "mod/mcreator/mcreator_palladiumpickaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumpickaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumshovel": {
+    "name": "mod/mcreator/mcreator_palladiumshovel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumshovel"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_palladiumsword": {
+    "name": "mod/mcreator/mcreator_palladiumsword",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:palladiumsword"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_polishedmarble": {
+    "name": "mod/mcreator/mcreator_polishedmarble",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:polishedmarble"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumarmor": {
+    "name": "mod/mcreator/mcreator_titaniumarmor",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "helmet",
+        "value": {
+          "value": "ultrametals:titaniumarmorhelmet"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "body",
+        "value": {
+          "value": "ultrametals:titaniumarmorbody"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "legs",
+        "value": {
+          "value": "ultrametals:titaniumarmorlegs"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "boots",
+        "value": {
+          "value": "ultrametals:titaniumarmorboots"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumaxe": {
+    "name": "mod/mcreator/mcreator_titaniumaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumblock": {
+    "name": "mod/mcreator/mcreator_titaniumblock",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumblock"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumbricks": {
+    "name": "mod/mcreator/mcreator_titaniumbricks",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumbricks"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumhoe": {
+    "name": "mod/mcreator/mcreator_titaniumhoe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumhoe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumingot": {
+    "name": "mod/mcreator/mcreator_titaniumingot",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumingot"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumnugget": {
+    "name": "mod/mcreator/mcreator_titaniumnugget",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumnugget"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumore": {
+    "name": "mod/mcreator/mcreator_titaniumore",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumore"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumore$1": {
+    "name": "mod/mcreator/mcreator_titaniumore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumpickaxe": {
+    "name": "mod/mcreator/mcreator_titaniumpickaxe",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumpickaxe"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumshovel": {
+    "name": "mod/mcreator/mcreator_titaniumshovel",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumshovel"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/mcreator_titaniumsword": {
+    "name": "mod/mcreator/mcreator_titaniumsword",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "ultrametals:titaniumsword"
+        }
+      }
+    ]
+  },
+  "mod/mcreator/ultrametals": {
+    "name": "mod/mcreator/ultrametals",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "mod/mcreator/ultrametals",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-after:forge@[14.23.5.2768]"
+          },
+          "modid": {
+            "value": "ultrametals"
+          },
+          "version": {
+            "value": "1.0.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "mod.mcreator.ClientProxyultrametals"
+          },
+          "serverSide": {
+            "value": "mod.mcreator.CommonProxyultrametals"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "ultrametals"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      }
+    ]
+  },
+  "mod/mcreator/ultrametals$GuiHandler": {
+    "name": "mod/mcreator/ultrametals$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  }
+}

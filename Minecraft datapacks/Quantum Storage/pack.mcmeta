@@ -1,0 +1,1 @@
+{"pack":{"pack_format":1,"description":"Place sample item stack (ideally, a full stack) in the first slot to establish the target stack size. Any further stack inserted into the first slot will only be stored if its stack size is greater than or equal to this stack size"}}

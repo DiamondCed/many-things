@@ -1,0 +1,8 @@
+{
+  "parent":"item/generic/cube_bottom_top",
+	"textures":{
+		"side":"block/quantum_storage_s",
+		"top":"block/quantum_storage_top_s",
+		"bottom":"block/quantum_storage_bottom_s"
+	}
+}

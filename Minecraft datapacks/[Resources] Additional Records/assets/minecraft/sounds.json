@@ -1,0 +1,47 @@
+{
+  "custom1": {
+    "category":"record",
+    "sounds": [
+     {
+     "name":"custom1",
+     "stream": true
+     }
+    ]
+  },
+  "custom2": {
+    "category":"record",
+    "sounds": [
+     {
+     "name":"custom2",
+     "stream": true
+     }
+    ]
+  },
+  "custom3": {
+    "category":"record",
+    "sounds": [
+     {
+     "name":"custom3",
+     "stream": true
+     }
+    ]
+  },
+  "custom4": {
+    "category":"record",
+    "sounds": [
+     {
+     "name":"custom4",
+     "stream": true
+     }
+    ]
+  },
+  "custom5": {
+    "category":"record",
+    "sounds": [
+     {
+     "name":"custom5",
+     "stream": true
+     }
+    ]
+  }
+ }

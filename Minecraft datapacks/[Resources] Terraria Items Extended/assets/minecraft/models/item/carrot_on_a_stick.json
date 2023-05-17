@@ -1,0 +1,63 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 1
+		    },
+		    "model": "item/carrot_on_a_stick/mirror"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 3
+		    },
+		    "model": "item/carrot_on_a_stick/heart"
+		 },
+                { 
+		    "predicate": {
+			 "custom_model_data": 14
+		    },
+		    "model": "item/carrot_on_a_stick/charm"
+		 },
+                { 
+		    "predicate": {
+			 "custom_model_data": 15
+		    },
+		    "model": "item/carrot_on_a_stick/rainstone"
+		 },
+                { 
+		    "predicate": {
+			 "custom_model_data": 16
+		    },
+		    "model": "item/carrot_on_a_stick/storage"
+		 },
+		        { 
+		    "predicate": {
+			 "custom_model_data": 17
+		    },
+		    "model": "item/carrot_on_a_stick/wisp_bottle"
+		 },
+				{ 
+		    "predicate": {
+			 "custom_model_data": 29
+		    },
+		    "model": "item/carrot_on_a_stick/blazethrower"
+		 },
+                { 
+		    "predicate": {
+			 "custom_model_data": 98
+		    },
+		    "model": "item/carrot_on_a_stick/fangs1"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 99
+		    },
+		    "model": "item/carrot_on_a_stick/fangs2"
+		 }
+	]
+}

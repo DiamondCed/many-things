@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/netherite_axe",
+  "textures": {
+		"layer1": "minecraft:tool_gems/axe/diamond"
+  }
+}

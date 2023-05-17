@@ -1,0 +1,11 @@
+Telekinesis: Holds entity in front of user, craft with 2x netherite, 1x copper, 1x amethyst, 1x dragon breath. 
+
+Deflection: Deflects projectiles away from user, craft with 2x netherite, 1x iron, 1x diamond, 1x dragon breath. 
+
+Conjuration: Has 2 modes. Mode 1 creates Magic Blocks and moves them around, mode 2 destroys them, has a cooldown. R-click to activate/deactivate, shift-r-click to switch modes (only when deactivated). Craft with 2x netherite, 1x gold, 1x quartz, 1x dragon breath.
+
+Recall: Teleports the user back to a location. Shift-click to set the location (per dimension), and hold click for 1.5s to teleport back. Can transport entities held by telekinesis with you. Craft with 2x netherite, 1x obsidian, 1x lapis lazuli, 1x dragon breath.
+
+Excavation: Makes pickaxes and shovels break a 3x3 aoe when activated and in offhand. Craft with 2x netherite, 1x nether brick, 1x redstone, 1x dragon breath.
+
+Destruction: Voids a 5x5x5 area, with the near face being centered on the targeted block. Craft with 2x netherite, 1x crying obsidian, 1x nether star, 1x dragon breath.

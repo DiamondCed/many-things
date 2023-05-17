@@ -1,0 +1,236 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Spool of Thread (white)\\\"}\"},SkullOwner:{Id:\"4de69df8-2d75-9050-88fe-ff0383ea65c8\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0NmE2MmZlYzJkZDk3ZjVlNGFhMzI5YWU0NDZjNjAxMWE4ZThlMmQ4MTdhZWViOGZkYzExY2M1NGVjMmViZSJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Spool of Thread (black)\\\"}\"},SkullOwner:{Id:\"d5a50e40-1878-78a4-fbe4-661b48256007\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQzMTY2OGQxMTYzOTdmYTdiY2JlODk0NGQ1MWQyMjkwOWUzYjgwYzlkM2RkZTE5ZmY0ODZmZGRmZTA2ZCJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Stack of Carpets (rainbow)\\\"}\"},SkullOwner:{Id:\"6212dbc5-af39-4b25-a7a5-7611e2257382\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZkOGJlZDJkZmU0YzMyMTY4Yzk3MjE1NGVlYTMzNWE4MDQyZTlkNjRiODUwNzY3YzZlYTA0Y2U4Zjg1ZjEyYSJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ball of Wool (pink)\\\"}\"},SkullOwner:{Id:\"d04d8fc1-e688-3308-a686-f69881803e40\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI0ZWFjZWRiYjEzNWZlMTEwNzcyMWZhYmFiOTFhYjZjYjc4YjBmNDM2ZTQ1YmE2OTBjMzQ5N2M3ZGU4M2U3NyJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ball of Wool (brown)\\\"}\"},SkullOwner:{Id:\"3d1fad58-c3c2-9c4f-d311-645f12e541da\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjcxOGJmNzkzZTc2MWI4MjI1ZDBkZDA0YTMwOTQzNGFkZjdlMzRjYjljYTg5NWVmM2IzMTYzZTU2MjgyNSJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ball of Wool (white)\\\"}\"},SkullOwner:{Id:\"372c81ef-d33f-334a-802f-83f38bd473c0\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzYTRlOTg4MmYxODkyMzNmOWJmMTEyMWI5NmI3OTliYjNmZDM3NzA1NGYzOWRkMTlhNWQ4M2JlMDFmZjYifX19\"}]}}}"
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ball of Wool (black)\\\"}\"},SkullOwner:{Id:\"8565b02d-1eb5-d9d6-9564-a41076f7e2b2\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFjOTFhYjI1ODM2ZDEzNDgzODY0Y2RkYmQ0MzJkYmIyMmQ0YWMyOTNmMWM5OWZiMjg5MTljZjM5YzMifX19\"}]}}}"
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Ball of Wool (light gray)\\\"}\"},SkullOwner:{Id:\"db0a16e5-739a-da61-1d49-f69bb728ee69\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBmZDY3OTc4MDE0OTY5YzVmNTE3MmJmMzlkMjQzNDcyODFkNmQ5NWFlNzBmMTliNDlkODRmMWY4ZmVlNjg1In19fQ==\"}]}}}"
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:white_banner",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Bunny Rabbit\\\"}\", Lore:[\"By Anonymous\"]}, BlockEntityTag:{Patterns:[{Pattern:mc,Color:15},{Pattern:flo,Color:0},{Pattern:tt,Color:3},{Pattern:cr,Color:0},{Pattern:cbo,Color:3},{Pattern:bts,Color:0}]}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:white_banner",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Rainbow\\\"}\", Lore:[\"By Tetrajak\"]}, BlockEntityTag:{Patterns:[{Pattern:ls,Color:14},{Pattern:rs,Color:11},{Pattern:drs,Color:1},{Pattern:dls,Color:5},{Pattern:sc,Color:2},{Pattern:cs,Color:4},{Pattern:mc,Color:3},{Pattern:cbo,Color:3},{Pattern:ts,Color:3},{Pattern:hhb,Color:13}]}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					],
+					"weight": 20
+				},
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:black_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:brown_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:light_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wheat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "1": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "2": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "3": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "4": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "5": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "6": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "7": {
+      "item": "ultrametals:palladiumnugget"
+    },
+    "8": {
+      "item": "ultrametals:palladiumnugget"
+    }
+  },
+  "result": {
+    "item": "ultrametals:palladiumingot",
+    "count": 1
+  }
+}

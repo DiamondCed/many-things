@@ -1,0 +1,1 @@
+execute as @e[type=glow_item_frame,nbt={Item:{id:"minecraft:clock"}}] run tag @s add wallclock

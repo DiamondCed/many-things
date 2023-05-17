@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/netherite_shovel",
+  "textures": {
+		"layer1": "minecraft:tool_gems/shovel/redstone"
+  }
+}

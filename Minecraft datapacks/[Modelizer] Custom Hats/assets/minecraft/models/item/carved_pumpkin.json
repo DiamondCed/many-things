@@ -1,0 +1,132 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 1
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_normal"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 2
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_fire"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 3
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_ice"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 4
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_earth"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 5
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_lightning"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 6
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_sorcery"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 7
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_healing"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 8
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_necromancy"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 9
+		    },
+		    "model": "item/carved_pumpkin/wizard/wizard_festive"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 11
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_normal"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 12
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_fire"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 13
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_ice"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 14
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_earth"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 15
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_lightning"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 16
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_sorcery"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 17
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_healing"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 18
+		    },
+		    "model": "item/carved_pumpkin/sage/sage_necromancy"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 20
+		    },
+		    "model": "item/carved_pumpkin/wither"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 21
+		    },
+		    "model": "item/carved_pumpkin/hood"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 22
+		    },
+		    "model": "item/carved_pumpkin/shell"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 23
+		    },
+		    "model": "item/carved_pumpkin/cat_ears"
+		 }
+	]
+}

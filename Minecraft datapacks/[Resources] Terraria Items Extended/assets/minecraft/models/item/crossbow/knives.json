@@ -1,0 +1,17 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/vampire_knives"
+    },
+    "display":{
+        "gui": {
+
+            "rotation": [ 0, 180, 0 ],
+
+            "translation": [ 0, 0, 0],
+
+            "scale": [ 1, 1, 1 ]
+
+        }
+    }
+}

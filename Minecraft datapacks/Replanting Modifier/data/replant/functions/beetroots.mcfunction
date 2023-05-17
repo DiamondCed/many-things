@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ air unless entity @e[tag=BrokenBeetSeeds,distance=..1] run clear @p beetroot_seeds 1
+execute if block ~ ~ ~ air unless entity @e[tag=BrokenBeetSeeds,distance=..1] run setblock ~ ~ ~ beetroots

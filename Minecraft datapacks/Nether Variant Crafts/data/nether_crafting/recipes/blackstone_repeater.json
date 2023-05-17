@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rRr",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:polished_blackstone"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "r": {
+            "item": "minecraft:redstone_torch"
+        }
+    },
+    "result": {
+        "item": "minecraft:repeater",
+        "count": 1
+    }
+}

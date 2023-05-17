@@ -1,0 +1,87 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+	"minecraft:stone_stairs",
+	"minecraft:stone_slab",
+	"minecraft:cobblestone",
+	"minecraft:cobblestone_stairs",
+	"minecraft:cobblestone_slab",
+	
+	"minecraft:granite",
+	"minecraft:granite_stairs",
+	"minecraft:granite_slab",
+	"minecraft:diorite",
+	"minecraft:diorite_stairs",
+	"minecraft:diorite_slab",
+	"minecraft:andesite",
+	"minecraft:andesite_stairs",
+	"minecraft:andesite_slab",
+	
+	"minecraft:polished_granite",
+	"minecraft:polished_granite_stairs",
+	"minecraft:polished_granite_slab",
+	"minecraft:polished_diorite",
+	"minecraft:polished_diorite_stairs",
+	"minecraft:polished_diorite_slab",
+	"minecraft:polished_andesite",
+	"minecraft:polished_andesite_stairs",
+	"minecraft:polished_andesite_slab",
+	
+	"minecraft:dirt",
+	"minecraft:coarse_dirt",
+	"minecraft:podzol",
+	"minecraft:sand",
+	"minecraft:gravel",
+	
+	"minecraft:sandstone",
+	"minecraft:sandstone_stairs",
+	"minecraft:sandstone_slab",
+	
+	"minecraft:netherrack",
+	"minecraft:soul_sand",
+	"minecraft:soul_soil",
+	"minecraft:basalt",
+	
+	"minecraft:blackstone",
+	"minecraft:blackstone_stairs",
+	"minecraft:blackstone_slab",
+	
+	"minecraft:pumpkin",
+	"minecraft:melon",
+	
+	
+	"minecraft:potted_dandelion",
+	"minecraft:potted_poppy",
+	"minecraft:potted_blue_orchid",
+	"minecraft:potted_allium",
+	"minecraft:potted_azure_bluet",
+	"minecraft:potted_red_tulip",
+	"minecraft:potted_orange_tulip",
+	"minecraft:potted_white_tulip",
+	"minecraft:potted_pink_tulip",
+	"minecraft:potted_oxeye_daisy",
+	"minecraft:potted_cornflower",
+	"minecraft:potted_lily_of_the_valley",
+	"minecraft:potted_fern",
+	"minecraft:potted_dead_bush",
+	"minecraft:potted_oak_sapling",
+	"minecraft:potted_spruce_sapling",
+	"minecraft:potted_birch_sapling",
+	"minecraft:potted_jungle_sapling",
+	"minecraft:potted_acacia_sapling",
+	"minecraft:potted_dark_oak_sapling",
+	
+	"minecraft:cobblestone_wall",
+	"minecraft:granite_wall",
+	"minecraft:diorite_wall",
+	"minecraft:andesite_wall",
+	"minecraft:sandstone_wall",
+	"minecraft:blackstone_wall",
+	
+	
+	"minecraft:lever",
+	"minecraft:stone_pressure_plate",
+	"minecraft:stone_button"
+  ]
+}

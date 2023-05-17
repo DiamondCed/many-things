@@ -1,0 +1,1 @@
+tellraw @a {"text":"MultiBoat Pack loaded!","color":"aqua"}

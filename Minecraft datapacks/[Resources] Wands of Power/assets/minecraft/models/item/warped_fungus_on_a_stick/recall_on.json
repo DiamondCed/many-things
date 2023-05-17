@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_wand",
+	"textures": {
+		"layer0": "item/rc/rc_on_base",
+		"layer1": "item/rc/rc_on_overlay"
+	}
+}

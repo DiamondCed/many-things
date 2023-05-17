@@ -1,0 +1,1 @@
+scoreboard objectives add regen_timer dummy

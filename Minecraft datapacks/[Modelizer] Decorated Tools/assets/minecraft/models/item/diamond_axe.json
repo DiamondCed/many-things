@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_axe"
+  },
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"item/axes/diamond/lapis"
+		},
+		{
+			"predicate":{
+				"custom_model_data":2
+			},
+			"model":"item/axes/diamond/redstone"
+		},
+		{
+			"predicate":{
+				"custom_model_data":3
+			},
+			"model":"item/axes/diamond/gold"
+		},
+		{
+			"predicate":{
+				"custom_model_data":4
+			},
+			"model":"item/axes/diamond/emerald"
+		},
+		{
+			"predicate":{
+				"custom_model_data":5
+			},
+			"model":"item/axes/diamond/diamond"
+		},
+		{
+			"predicate":{
+				"custom_model_data":6
+			},
+			"model":"item/axes/diamond/amethyst"
+		},
+		{
+			"predicate":{
+				"custom_model_data":7
+			},
+			"model":"item/axes/diamond/amber"
+		}
+	]
+}

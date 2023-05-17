@@ -1,0 +1,24 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "1": {
+      "item": "ultrametals:titaniumingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ultrametals:titaniumsword",
+    "count": 1
+  }
+}

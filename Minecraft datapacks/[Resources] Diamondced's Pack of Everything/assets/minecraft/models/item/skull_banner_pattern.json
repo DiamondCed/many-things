@@ -1,0 +1,33 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/skull_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 24
+		    },
+		    "model": "item/skull_banner_pattern/rocket_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 26
+		    },
+		    "model": "item/skull_banner_pattern/spectre_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 34
+		    },
+		    "model": "item/skull_banner_pattern/cobalt_shield"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 37
+		    },
+		    "model": "item/skull_banner_pattern/lightning_boots"
+		 }
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+			{
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Tear Thorn Seeds\",\"italic\":false}'},CustomModelData:199,EntityTag:{Invisible:1b,Rotation:[0,0],id:\"armor_stand\",Tags:[\"ghastPlant\"]}}"
+            }
+          ],
+          "name": "minecraft:ghast_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

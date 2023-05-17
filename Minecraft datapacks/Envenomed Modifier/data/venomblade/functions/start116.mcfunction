@@ -1,0 +1,1 @@
+scoreboard objectives add hit_netherite minecraft.used:minecraft.netherite_sword

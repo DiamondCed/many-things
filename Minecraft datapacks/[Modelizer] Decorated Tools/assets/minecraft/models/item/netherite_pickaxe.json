@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_pickaxe"
+  },
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"item/pickaxes/netherite/lapis"
+		},
+		{
+			"predicate":{
+				"custom_model_data":2
+			},
+			"model":"item/pickaxes/netherite/redstone"
+		},
+		{
+			"predicate":{
+				"custom_model_data":3
+			},
+			"model":"item/pickaxes/netherite/gold"
+		},
+		{
+			"predicate":{
+				"custom_model_data":4
+			},
+			"model":"item/pickaxes/netherite/emerald"
+		},
+		{
+			"predicate":{
+				"custom_model_data":5
+			},
+			"model":"item/pickaxes/netherite/diamond"
+		},
+		{
+			"predicate":{
+				"custom_model_data":6
+			},
+			"model":"item/pickaxes/netherite/amethyst"
+		},
+		{
+			"predicate":{
+				"custom_model_data":7
+			},
+			"model":"item/pickaxes/netherite/amber"
+		}
+	]
+}

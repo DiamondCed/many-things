@@ -1,0 +1,3 @@
+execute if score #version version matches 0 as @e[type=trident] at @s if entity @s[y=0,dy=-200] run data modify entity @s DealtDamage set value 1b
+execute if score #version version matches 1 unless predicate novoidtridents:is_overworld as @e[type=trident] at @s if entity @s[y=0,dy=-200] run data modify entity @s DealtDamage set value 1b
+execute if score #version version matches 1 if predicate novoidtridents:is_overworld as @e[type=trident] at @s if entity @s[y=-64,dy=-200] run data modify entity @s DealtDamage set value 1b

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+		{
+			"item": "minecraft:crimson_roots"
+		},
+		{
+			"item": "minecraft:weeping_vines"
+		}
+	]
+  ],
+  "result": {
+    "item": "minecraft:red_dye",
+    "count": 1
+  }
+}

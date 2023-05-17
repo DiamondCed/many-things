@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#aestd1:glass",
+		"#aestd1:glass_panes",
+		"minecraft:tinted_glass"
+  ]
+}

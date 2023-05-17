@@ -1,0 +1,34 @@
+
+{
+	"description": "Blocks that cannot be mined properly without diamond tools. Includes unbreakable blocks.",
+	"values": [
+		{
+			"id": "minecraft:obsidian",
+			"required": false
+		},
+		{
+			"id": "minecraft:ancient_debris",
+			"required": false
+		},
+		{
+			"id": "minecraft:netherite_block",
+			"required": false
+		},
+		{
+			"id": "minecraft:ender_chest",
+			"required": false
+		},
+		{
+			"id": "minecraft:crying_obsidian",
+			"required": false
+		},
+		{
+			"id": "minecraft:respawn_anchor",
+			"required": false
+		},
+		{
+			"id": "#excavation:unbreakable",
+			"required": false
+		}
+	]
+}

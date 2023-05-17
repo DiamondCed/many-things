@@ -1,0 +1,69 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/structure_void"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 1
+		    },
+		    "model": "item/structure_void/timer_0"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 2
+		    },
+		    "model": "item/structure_void/timer_1"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 3
+		    },
+		    "model": "item/structure_void/timer_2"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 4
+		    },
+		    "model": "item/structure_void/timer_3"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 5
+		    },
+		    "model": "item/structure_void/timer_4"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 6
+		    },
+		    "model": "item/structure_void/timer_5"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 7
+		    },
+		    "model": "item/structure_void/timer_6"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 8
+		    },
+		    "model": "item/structure_void/timer_7"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 9
+		    },
+		    "model": "item/structure_void/timer_8"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 10
+		    },
+		    "model": "item/structure_void/timer_9"
+		 }
+	]
+}

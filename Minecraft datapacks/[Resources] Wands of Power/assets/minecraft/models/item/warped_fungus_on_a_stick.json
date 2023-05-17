@@ -1,0 +1,99 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 57
+		    },
+		    "model": "item/warped_fungus_on_a_stick/conjured_block"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 58
+		    },
+		    "model": "item/warped_fungus_on_a_stick/telekinesis_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 59
+		    },
+		    "model": "item/warped_fungus_on_a_stick/telekinesis_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 60
+		    },
+		    "model": "item/warped_fungus_on_a_stick/deflection_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 61
+		    },
+		    "model": "item/warped_fungus_on_a_stick/deflection_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 62
+		    },
+		    "model": "item/warped_fungus_on_a_stick/conjuration_0_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 63
+		    },
+		    "model": "item/warped_fungus_on_a_stick/conjuration_0_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 64
+		    },
+		    "model": "item/warped_fungus_on_a_stick/conjuration_1_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 65
+		    },
+		    "model": "item/warped_fungus_on_a_stick/conjuration_1_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 66
+		    },
+		    "model": "item/warped_fungus_on_a_stick/recall_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 67
+		    },
+		    "model": "item/warped_fungus_on_a_stick/recall_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 68
+		    },
+		    "model": "item/warped_fungus_on_a_stick/excavation_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 69
+		    },
+		    "model": "item/warped_fungus_on_a_stick/excavation_on"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 70
+		    },
+		    "model": "item/warped_fungus_on_a_stick/destruction_off"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 71
+		    },
+		    "model": "item/warped_fungus_on_a_stick/destruction_on"
+		 }
+	]
+}

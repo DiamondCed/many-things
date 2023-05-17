@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "seed":0,
+    "biome_source": {
+      "seed":0,
+      "biome":"mountains",
+      "type": "minecraft:fixed"
+    },
+    "settings": {
+      "bedrock_roof_position":255,
+      "bedrock_floor_position":0,
+      "sea_level":20,
+      "noise":{
+        "top_slide":{
+          "target":5,
+          "size":1,
+          "offset":5
+        },
+        "bottom_slide":{
+          "target":5,
+          "size":1,
+          "offset":5
+        },
+        "sampling":{
+          "xz_scale":1,
+          "xz_factor":1,
+          "y_scale":1,
+          "y_factor":1
+        },
+        "size_vertical":1,
+        "size_horizontal":1,
+        "height":256,
+        "density_factor":1,
+        "density_offset":0,
+        "simplex_surface_noise":false
+      },
+      "default_block":{
+        "name":"minecraft:stone"
+      },
+      "default_fluid":{
+        "name":"minecraft:water"
+      }
+    },
+    "type": "minecraft:noise"
+  }
+}

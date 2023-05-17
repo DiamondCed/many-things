@@ -1,0 +1,11 @@
+{
+  "magic_mirror": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"magic_mirror",
+     "stream": true
+     }
+    ]
+  }
+ }

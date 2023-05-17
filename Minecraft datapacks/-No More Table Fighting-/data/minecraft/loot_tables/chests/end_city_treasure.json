@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:A/end_city_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:B/end_city_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:E/end_city_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:F/end_city_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:H/end_city_treasure"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "tables:G/ancient_stones"
+                }
+            ]
+        }
+    ]
+}

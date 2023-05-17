@@ -1,0 +1,6 @@
+1 - Lapis
+2 - Redstone
+3 - Gold
+4 - Emerald
+5 - Diamond
+6 - Quartz

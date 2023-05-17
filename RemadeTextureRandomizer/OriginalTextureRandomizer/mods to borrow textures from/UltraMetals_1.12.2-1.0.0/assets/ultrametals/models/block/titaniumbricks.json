@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultrametals:blocks/titanium_brick",
+    "up": "ultrametals:blocks/titanium_brick",
+    "north": "ultrametals:blocks/titanium_brick",
+    "east": "ultrametals:blocks/titanium_brick",
+    "south": "ultrametals:blocks/titanium_brick",
+    "west": "ultrametals:blocks/titanium_brick",
+    "particle": "ultrametals:blocks/titanium_brick"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:glow_item_frame",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"Quantum Storage Unit\",\"color\":\"yellow\",\"italic\":false}'},EntityTag:{Facing:1b,Silent:1b,Invisible:1b,Fixed:1b,Tags:[qstore,init],Item:{id:\"minecraft:barrel\",Count:1b,tag:{CustomModelData:1,DeepItems:[]}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

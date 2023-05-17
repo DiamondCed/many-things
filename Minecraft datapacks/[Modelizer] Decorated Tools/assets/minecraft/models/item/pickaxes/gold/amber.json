@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/golden_pickaxe",
+  "textures": {
+		"layer1": "minecraft:tool_gems/pickaxe/amber"
+  }
+}

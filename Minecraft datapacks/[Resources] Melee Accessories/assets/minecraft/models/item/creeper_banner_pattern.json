@@ -1,0 +1,75 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/creeper_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 38
+		    },
+		    "model": "item/creeper_banner_pattern/feral_claws"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 39
+		    },
+		    "model": "item/creeper_banner_pattern/venomous_gland"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 40
+		    },
+		    "model": "item/creeper_banner_pattern/withering_petals"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 41
+		    },
+		    "model": "item/creeper_banner_pattern/frost_stone"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 42
+		    },
+		    "model": "item/creeper_banner_pattern/weakening_grasp"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 43
+		    },
+		    "model": "item/creeper_banner_pattern/shulker_eye"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 44
+		    },
+		    "model": "item/creeper_banner_pattern/venomous_claws"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 45
+		    },
+		    "model": "item/creeper_banner_pattern/withering_claws"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 46
+		    },
+		    "model": "item/creeper_banner_pattern/frost_claws"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 47
+		    },
+		    "model": "item/creeper_banner_pattern/weakening_claws"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 48
+		    },
+		    "model": "item/creeper_banner_pattern/shulker_claws"
+		 }
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:block/barrel",
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 1
+		    },
+		    "model": "item/barrel/quantum_storage"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 2
+		    },
+		    "model": "item/barrel/quantum_storage_selected"
+		 }
+	]
+}

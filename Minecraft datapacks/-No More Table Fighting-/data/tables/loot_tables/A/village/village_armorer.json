@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+		{
+			"rolls": {
+			"min": 2.0,
+			"max": 6.0,
+			"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Iron Ingots\\\"}\"},SkullOwner:{Id:\"d77e5a05-106d-438e-b1a5-e82d9f54be8f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=\"}]}}}"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Anvil\\\"}\"},SkullOwner:{Id:\"1536e608-7f2c-438e-80c3-f64596f6a87c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1NWIzZTFkOWE3YjlmZDc2YTc3NmZhNGVlYzg3MWQ1MmVkMjY5MzI1Mzg2MjhjNDNkZTMyZDFkMmQ3NDMifX19\"}]}}}"
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 12
+							}
+						}
+					],
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+						"min": 1.0,
+						"max": 3.0,
+						"type": "minecraft:uniform"
+						}
+					}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+						"min": 1.0,
+						"max": 4.0,
+						"type": "minecraft:uniform"
+						}
+					}
+					],
+					"name": "minecraft:bread"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "item",
+					"name": "minecraft:saddle",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_horse_armor",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_horse_armor",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_horse_armor",
+					"weight": 1
+				}
+			]
+		}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false,
+            "source_entity": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "meleeacc:melee_hit"
+  }
+}

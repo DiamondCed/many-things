@@ -1,0 +1,30 @@
+{
+  "group": "ultrametals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ultrametals:palladiumingot"
+    },
+    "1": {
+      "item": "ultrametals:palladiumingot"
+    },
+    "2": {
+      "item": "ultrametals:palladiumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ultrametals:palladiumpickaxe",
+    "count": 1
+  }
+}

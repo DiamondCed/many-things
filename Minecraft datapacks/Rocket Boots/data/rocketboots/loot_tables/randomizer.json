@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:structure_void",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{replaceRB:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

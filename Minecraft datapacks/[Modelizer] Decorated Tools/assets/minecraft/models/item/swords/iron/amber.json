@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+		"layer1": "minecraft:tool_gems/sword/amber"
+  }
+}

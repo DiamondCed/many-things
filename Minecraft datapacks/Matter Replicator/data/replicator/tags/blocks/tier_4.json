@@ -1,0 +1,79 @@
+{
+  "replace": false,
+  "values":[
+	"minecraft:obsidian",
+	"minecraft:crying_obsidian",
+	"minecraft:lapis_ore",
+	"minecraft:lapis_block",
+	"minecraft:redstone_ore",
+	"minecraft:bookshelf",
+	"minecraft:gilded_blackstone",
+	"minecraft:packed_ice",
+	"minecraft:nether_gold_ore",
+	"minecraft:nether_quartz_ore",
+	"minecraft:gold_ore",
+	"minecraft:gold_block",
+	"minecraft:iron_ore",
+	"minecraft:iron_block",
+	"minecraft:emerald_ore",
+	"minecraft:emerald_block",
+	"minecraft:glowstone",
+	
+	"minecraft:quartz_block",
+	"minecraft:quartz_stairs",
+	"minecraft:quartz_slab",
+	"minecraft:quartz_pillar",
+	"minecraft:quartz_bricks",
+	"minecraft:chiseled_quartz_block",
+	
+	"minecraft:smooth_quartz",
+	"minecraft:smooth_quartz_stairs",
+	"minecraft:smooth_quartz_slab",
+	
+	"minecraft:red_nether_bricks",
+	"minecraft:red_nether_brick_stairs",
+	"minecraft:red_nether_brick_slab",
+	"minecraft:red_nether_brick_wall",
+	
+	"minecraft:purpur_block",
+	"minecraft:purpur_stairs",
+	"minecraft:purpur_slab",
+	"minecraft:purpur_pillar",
+	
+	"minecraft:end_stone_bricks",
+	"minecraft:end_stone_brick_stairs",
+	"minecraft:end_stone_brick_slab",
+	"minecraft:end_stone_brick_wall",
+	
+	
+	"minecraft:potted_wither_rose",
+	"minecraft:ender_chest",
+	"minecraft:respawn_anchor",
+	"minecraft:lodestone",
+	"minecraft:honey_block",
+	"minecraft:slime_block",
+	"minecraft:enchanting_table",
+	"minecraft:end_rod",
+	
+	"minecraft:player_head",
+	"minecraft:zombie_head",
+	"minecraft:skeleton_skull",
+	"minecraft:creeper_head",
+	"minecraft:dragon_head",
+	
+	
+	"minecraft:sticky_piston",
+	"minecraft:observer",
+	"minecraft:redstone_block",
+	"minecraft:hopper",
+	"minecraft:turtle_egg",
+	"minecraft:brewing_stand",
+	"minecraft:dispenser",
+	"minecraft:dropper",
+	"minecraft:piston",
+	"minecraft:redstone_lamp",
+	"minecraft:lectern"
+	
+	
+  ]
+}

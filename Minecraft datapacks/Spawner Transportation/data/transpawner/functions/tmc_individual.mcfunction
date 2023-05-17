@@ -1,0 +1,3 @@
+data modify entity @e[tag=transpawner_marker,tag=current,limit=1,sort=nearest] ArmorItems[2].tag.Temp set from entity @e[tag=transpawner_marker,tag=current,limit=1,sort=nearest] ArmorItems[2].tag.UUID
+execute store success score #temp calc run data modify entity @e[tag=transpawner_marker,tag=current,limit=1,sort=nearest] ArmorItems[2].tag.Temp set from entity @s UUID
+execute unless score #temp calc matches 1 run tag @e[tag=transpawner_marker,tag=current,limit=1,sort=nearest] add exists

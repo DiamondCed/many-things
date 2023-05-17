@@ -1,0 +1,10 @@
+{
+	"values": [ 
+		"telekinesis:start",
+		"deflection:start",
+		"conjuration:start",
+		"recall:start",
+		"excavation:start",
+		"destruction:start"
+	]
+}

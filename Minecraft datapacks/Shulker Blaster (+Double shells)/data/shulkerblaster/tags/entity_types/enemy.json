@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:raiders",
+    "#shulkerblaster:undead",
+	"minecraft:blaze",
+	"minecraft:cave_spider",
+	"minecraft:creeper",
+	"minecraft:elder_guardian",
+	"minecraft:ender_dragon",
+	"minecraft:ghast",
+	"minecraft:giant",
+	"minecraft:guardian",
+	"minecraft:magma_cube",
+	"minecraft:",
+  ]
+}

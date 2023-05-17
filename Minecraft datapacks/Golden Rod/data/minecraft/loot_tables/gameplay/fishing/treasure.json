@@ -1,0 +1,102 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:fishing_rod",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.luck",
+                                    "operation": "addition",
+                                    "amount": 5,
+                                    "name": "luckiness",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:6,display:{Name:\"{\\\"text\\\":\\\"Golden Fishing Rod\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\"}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:lily_pad"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:name_tag"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:saddle"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.25
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:fishing_rod",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.25
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:nautilus_shell"
+                }
+            ]
+        }
+    ]
+}

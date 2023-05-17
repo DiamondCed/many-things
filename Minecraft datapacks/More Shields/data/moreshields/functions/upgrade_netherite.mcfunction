@@ -1,0 +1,5 @@
+kill @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot",Count:1b}},limit=1,sort=nearest]
+
+data merge entity @s {Item:{tag:{upgradedShield:1b,diamondShield:0b,netheriteShield:1b,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:8},{Pattern:bo,Color:7},{Pattern:mr,Color:0},{Pattern:mc,Color:3}],Base:7},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Slot:"offhand",Amount:4,Operation:0,UUID:[I;8,8,8,8]},{AttributeName:"generic.armor",Name:"generic.armor",Slot:"offhand",Amount:6,Operation:0,UUID:[I;9,9,9,9]},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"offhand",Amount:0.1,Operation:0,UUID:[I;10,10,10,10]}]}}}
+
+execute if entity @s[nbt={Item:{tag:{display:{Name:'{"text":"Diamond Shield","italic":false}'}}}}] run data modify entity @s Item.tag.display set value {Name:'{"text":"Netherite Shield","italic":false}'}

@@ -1,0 +1,65 @@
+{
+  "double_jump": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"double_jump",
+     "stream": true
+     }
+    ]
+  },
+  "heart_crystal": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"heart_crystal",
+     "stream": true
+     }
+    ]
+  },
+  "hermes_boots": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"hermes_boots",
+     "stream": true
+     }
+    ]
+  },
+  "magic_mirror": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"magic_mirror",
+     "stream": true
+     }
+    ]
+  },
+  "wisp_in_a_bottle": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"wisp_in_a_bottle",
+     "stream": true
+     }
+    ]
+  },
+  "rocket_boots": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"rocket_boots",
+     "stream": true
+     }
+    ]
+  },
+  "spectre_boots": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"spectre_boots",
+     "stream": true
+     }
+    ]
+  }
+ }

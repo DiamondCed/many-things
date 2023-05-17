@@ -1,0 +1,1 @@
+tellraw @a {"text":"Personal End Portal Pack loaded!","color":"light_purple"}

@@ -1,0 +1,20 @@
+function blazethrower:update
+function bottlewisp:update
+function bundleofholding:update
+function doublejump:update
+function fangsbook:update
+function fbcannon:update
+function flowerboots:update
+function ghastplant:update
+# function goldenrod:update
+function hboots:update
+function hcrystals:update
+function magmir:update
+function meleeacc:update
+function moreaccessories:update
+function portalcharm:update
+function psc2:update
+function rainstone:update
+function rocketboots:update
+function shulkerblaster:update
+function vknives2:update

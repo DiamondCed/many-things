@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RHR",
+    " R "
+  ],
+  "key": {
+    "H": [
+		{
+			"item": "minecraft:warped_wart_block"
+		},
+		{
+			"item": "minecraft:nether_wart_block"
+		}
+	],
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:target"
+  }
+}

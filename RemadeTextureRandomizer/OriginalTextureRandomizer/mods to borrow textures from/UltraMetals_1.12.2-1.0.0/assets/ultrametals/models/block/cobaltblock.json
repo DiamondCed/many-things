@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultrametals:blocks/cobalt_block",
+    "up": "ultrametals:blocks/cobalt_block",
+    "north": "ultrametals:blocks/cobalt_block",
+    "east": "ultrametals:blocks/cobalt_block",
+    "south": "ultrametals:blocks/cobalt_block",
+    "west": "ultrametals:blocks/cobalt_block",
+    "particle": "ultrametals:blocks/cobalt_block"
+  }
+}

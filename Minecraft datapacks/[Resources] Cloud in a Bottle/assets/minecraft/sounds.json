@@ -1,0 +1,11 @@
+{
+  "double_jump": {
+    "category":"player",
+    "sounds": [
+     {
+     "name":"double_jump",
+     "stream": true
+     }
+    ]
+  }
+ }

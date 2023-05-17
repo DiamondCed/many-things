@@ -1,0 +1,14 @@
+{
+    "parent": "item/chest",
+    "textures": {
+        "particle": "block/obsidian"
+    },
+		"overrides": [
+			{ 
+				"predicate": {
+				"custom_model_data": 57
+				},
+				"model": "item/ender_chest/conjured_block"
+			}
+		]
+}

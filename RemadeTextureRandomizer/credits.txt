@@ -1,0 +1,28 @@
+Textures "borrowed" from the following:
+Minecraft 1.12.2-1.18
+Genetics Reborn
+Crystal Caves
+Dimensional Pockets
+Randores
+Electroblob’s Wizardry (Electroblob)
+Psi (Vazkii)
+Quark (Vazkii)
+Tinker’s construct (mDiyo)
+Ecnano’s more armor
+ExtraGems
+Jaboum (Tvvtuu)
+MoreOresInONE
+RubySapphire
+UltraMetals
+Silent's Gems (SilentChaos512)
+Aquaculture 2 (Shadowclaimer)
+Ars Nouveau (baileyholl2)
+Astral Sorcery (HellFirePVP)
+Botania (Vazkii)
+Buzzier Bees (TeamAbnormals)
+Create (simibubi)
+Eidolon (elucent_)
+Mekanism (bradyaidanc)
+Mystical Agriculture (BlakeBR0)
+RFToolsBase (McJty)
+Silent Gear (SilentChaos512)

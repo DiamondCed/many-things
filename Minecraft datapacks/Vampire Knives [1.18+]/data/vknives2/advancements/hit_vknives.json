@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "mainhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{VKnives:1}"
+              }
+            }
+          },
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    },
+    "offhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "equipment": {
+              "offhand": {
+                "nbt": "{VKnives:1}"
+              }
+            }
+          },
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mainhand",
+      "offhand"
+    ]
+  ],
+  "rewards": {
+    "function": "vknives2:hit_vknives"
+  }
+}

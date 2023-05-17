@@ -1,0 +1,81 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/flower_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 4
+		    },
+		    "model": "item/flower_banner_pattern/hermes_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 5
+		    },
+		    "model": "item/flower_banner_pattern/flurry_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 21
+		    },
+		    "model": "item/flower_banner_pattern/cloud_bottle"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 22
+		    },
+		    "model": "item/flower_banner_pattern/blizzard_bottle"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 23
+		    },
+		    "model": "item/flower_banner_pattern/sandstorm_bottle"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 25
+		    },
+		    "model": "item/flower_banner_pattern/nether_portal_charm"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 30
+		    },
+		    "model": "item/flower_banner_pattern/flower_boots"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 31
+		    },
+		    "model": "item/flower_banner_pattern/shackle"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 32
+		    },
+		    "model": "item/flower_banner_pattern/band_of_regen"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 33
+		    },
+		    "model": "item/flower_banner_pattern/regen_cuffs"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 35
+		    },
+		    "model": "item/flower_banner_pattern/aglet"
+		 },
+		{ 
+		    "predicate": {
+			 "custom_model_data": 36
+		    },
+		    "model": "item/flower_banner_pattern/anklet"
+		 }
+	]
+}

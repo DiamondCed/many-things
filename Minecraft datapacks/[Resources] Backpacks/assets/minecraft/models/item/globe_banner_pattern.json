@@ -1,0 +1,15 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/globe_banner_pattern"
+	},
+	
+	"overrides": [
+		{ 
+		    "predicate": {
+			 "custom_model_data": 38
+		    },
+		    "model": "item/globe_banner_pattern/backpack"
+		 }
+	]
+}
