@@ -1,0 +1,6 @@
+Make a list of words to place on cards in something like excel -> In the first column -> Save as .csv
+If you want a different font: in the script, change the font name used in the "for page in range(num_pages)" block (Line 99)
+Drag and drop the .csv onto the script OR run the script in terminal with the .csv as argument -> Will create the .pdf
+Print the pdf in "Print on both sides - Flip on short edge" mode
+
+Advice: print only the first 2 or 4 pages as an alignment test - you may need to change "EXTRA_BORDER_LEFT" on line 17 to line up the front and back of the card better
