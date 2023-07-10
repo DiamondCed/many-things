@@ -10,3 +10,7 @@ Guess Cards:
 Replace the images in guess_cards with the ones you want; make sure to keep the names identical, and in the .png format: 
 blue1, blue2, red1, red2, white1, white2, black, doubleblue, doublered
 Then simply run make_guess_cards and the guess_cards.pdf will contain the cards to print
+
+Key Cards: This is not strictly necessary if you already own a version of codenames; this is just to make standard sized cards to match the rest of this set
+You can go change the design on the back of the cards in the script (function at line 79), simplest changes are to just change the text and font.
+Running make_key_cards will create key_cards.pdf for you to print.

@@ -89,7 +89,8 @@ def add_backings():
         pdf.multi_cell(CARD_WIDTH, pdf.font_size , "Codenames\nD&D edition", align='C', border = False)
 
 # Shuffle words list so an obvious pattern in front and back of cards doesn't emerge
-#random.shuffle(words_list)
+# (comment out to generate a specific order of cards)
+random.shuffle(words_list)
 
 # Generate the PDF
 for page in range(num_pages):
