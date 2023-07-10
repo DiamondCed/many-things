@@ -14,3 +14,6 @@ Then simply run make_guess_cards and the guess_cards.pdf will contain the cards 
 Key Cards: This is not strictly necessary if you already own a version of codenames; this is just to make standard sized cards to match the rest of this set
 You can go change the design on the back of the cards in the script (function at line 79), simplest changes are to just change the text and font.
 Running make_key_cards will create key_cards.pdf for you to print.
+
+Rules: 
+The english rulebook has been downloaded here for your convenience, but other languages are available straight from the source at CGE's website: https://czechgames.com/en/codenames/downloads/
