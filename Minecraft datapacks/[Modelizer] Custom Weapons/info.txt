@@ -1,1 +1,2 @@
 Sword<netherite>: 31 = Falling Twilight
+Sword<netherite>: 32 = Murasama
