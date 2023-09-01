@@ -1,6 +1,5 @@
 from PIL import Image, ImageDraw
 import os
-import shutil
 import math
 
 # set cwd to the folder where this file is # plus now cwd is a shorthand for os.getcwd() I guess idk
