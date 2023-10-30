@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/iron_sword/cinquedea_sword",
+  "textures": {
+    "0": "weapons/cinquedea_netherite",
+		"particle": "weapons/cinquedea_netherite"
+  }
+}

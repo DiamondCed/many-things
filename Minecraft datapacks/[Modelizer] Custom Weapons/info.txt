@@ -1,2 +1,4 @@
-Sword<netherite>: 31 = Falling Twilight
-Sword<netherite>: 32 = Murasama
+Sword<netherite>: 31 = Falling Twilight (Terraria/Thorium Mod)
+Sword<netherite>: 32 = Murasama (Metal Gear Rising)
+Sword<iron>: 33 = Italian Coldsteel Cinquedea (Drawfee)
+Sword<netherite>: 33 = Netherian Hotsteel Cinquedea (Drawfee)

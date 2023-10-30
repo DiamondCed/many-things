@@ -16,6 +16,12 @@
 			 "custom_model_data": 32
 		    },
 		    "model": "item/netherite_sword/murasama_sword"
+		 },
+		 { 
+		    "predicate": {
+			 "custom_model_data": 33
+		    },
+		    "model": "item/netherite_sword/cinquedea_nether_sword"
 		 }
 	]
 }
