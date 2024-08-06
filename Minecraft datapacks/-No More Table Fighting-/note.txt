@@ -1,0 +1,1 @@
+not for general use; is a dumb fix for conflicting loot tables from several datapacks (several of which are not present in this repo due to not being mine)
