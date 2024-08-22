@@ -1,0 +1,2 @@
+execute as @e[type=item, tag=!beelocation_applied, nbt={Item:{id:"minecraft:beehive"}}] run function beelocation:applied_test
+execute as @e[type=item, tag=!beelocation_applied, nbt={Item:{id:"minecraft:bee_nest"}}] run function beelocation:applied_test
