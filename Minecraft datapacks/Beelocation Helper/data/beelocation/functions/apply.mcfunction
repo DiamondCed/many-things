@@ -15,5 +15,6 @@ execute if score $1 bee_dummy matches 2 run data modify entity @s Item.tag.displ
 execute if score $1 bee_dummy matches 3 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Bees: 3","color":"gray","italic":"false"}'
 
 # allow empty beehives to stack with crafted (but not dropped) beehives
-# now redundant since this doesn't run without bees present
+# the extra score check is now redundant since this doesn't run without bees present
 # execute if score $1 bee_dummy matches 1.. data modify entity @s Item.tag.beelocationApplied set value true
+data modify entity @s Item.tag.beelocationApplied set value true
