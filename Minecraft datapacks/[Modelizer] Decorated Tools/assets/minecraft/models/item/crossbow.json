@@ -1,0 +1,386 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/crossbow_standby"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+    "overrides": [
+        {
+"comment":"Default models",
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/crossbow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58
+            },
+            "model": "item/crossbow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "item/crossbow_pulling_2"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "item/crossbow_arrow"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1
+            },
+            "model": "item/crossbow_firework"
+        },
+
+        {
+"comment":"Lapis models",
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/standby/lapis"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/pulling_0/lapis"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/pulling_1/lapis"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/pulling_2/lapis"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/arrow/lapis"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 1
+            },
+            "model": "item/crossbows/firework/lapis"
+        },
+
+        {
+"comment":"Redstone models",
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/standby/redstone"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/pulling_0/redstone"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/pulling_1/redstone"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/pulling_2/redstone"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/arrow/redstone"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 2
+            },
+            "model": "item/crossbows/firework/redstone"
+        },
+
+        {
+"comment":"Gold models",
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/standby/gold"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/pulling_0/gold"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/pulling_1/gold"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/pulling_2/gold"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/arrow/gold"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 3
+            },
+            "model": "item/crossbows/firework/gold"
+        },
+
+        {
+"comment":"Emerald models",
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/standby/emerald"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/pulling_0/emerald"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/pulling_1/emerald"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/pulling_2/emerald"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/arrow/emerald"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 4
+            },
+            "model": "item/crossbows/firework/emerald"
+        },
+
+        {
+"comment":"Diamond models",
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/standby/diamond"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/pulling_0/diamond"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/pulling_1/diamond"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/pulling_2/diamond"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/arrow/diamond"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 5
+            },
+            "model": "item/crossbows/firework/diamond"
+        },
+
+        {
+"comment":"Amethyst models",
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/standby/amethyst"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/pulling_0/amethyst"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/pulling_1/amethyst"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/pulling_2/amethyst"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/arrow/amethyst"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 6
+            },
+            "model": "item/crossbows/firework/amethyst"
+        },
+
+        {
+"comment":"Amber models",
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/standby/amber"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/pulling_0/amber"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58,
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/pulling_1/amber"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0,
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/pulling_2/amber"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/arrow/amber"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1,
+                "custom_model_data": 7
+            },
+            "model": "item/crossbows/firework/amber"
+        }
+    ]
+}

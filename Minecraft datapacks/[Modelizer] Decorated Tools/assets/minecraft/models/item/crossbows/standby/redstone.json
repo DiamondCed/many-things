@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+		"layer1": "minecraft:tool_gems/crossbow/0/redstone"
+  }
+}

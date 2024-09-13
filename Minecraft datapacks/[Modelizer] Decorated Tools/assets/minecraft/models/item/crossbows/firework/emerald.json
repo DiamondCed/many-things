@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow_firework",
+  "textures": {
+		"layer1": "minecraft:tool_gems/crossbow/3/emerald"
+  }
+}

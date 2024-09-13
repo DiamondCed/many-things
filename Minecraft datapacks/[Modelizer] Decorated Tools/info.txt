@@ -3,4 +3,7 @@
 3 - Gold
 4 - Emerald
 5 - Diamond
-6 - Quartz
+6 - Amethyst
+7 - Amber
+
+Compatible tools: all iron, gold, diamond, netherite; crossbow

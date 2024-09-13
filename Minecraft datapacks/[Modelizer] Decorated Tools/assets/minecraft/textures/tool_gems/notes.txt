@@ -1,0 +1,9 @@
+trident doesn't work due to... some problem with how the game works I guess
+1_3 version added amethyst, removed quartz(?)
+1_4 version fixed redstone/lapis and added amber
+1_5 version added crossbow compatibility
+
+crossbow: 
+- standby, pulling_0 share sprite 0
+- pulling_1, pulling_2 each have their own sprite (1, 2)
+- loaded_arrow, loaded_firework share sprite 3

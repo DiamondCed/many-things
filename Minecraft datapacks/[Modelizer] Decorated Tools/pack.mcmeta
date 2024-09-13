@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 7,
+    "pack_format": 8,
     "description": "Adds gems to tool heads, see info file for data values"
   }
 }
