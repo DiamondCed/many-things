@@ -7,16 +7,15 @@ imgpath = input("Image path: ")
 imgpath = imgpath.strip("\"") # because by default copy as path adds quotes
 
 def remove_transparency(image : Image.Image):
-    if(image.format!="RGBA"): # no transparency to remove in the first place
+    if(not image.mode in ["RGBA","RGBa","LA","PA","La"]): # no transparency to remove in the first place
         return image
-    data = np.array(image)
-    r,g,b,a = data.T
+    data = np.array(image.convert("RGBA"))
+    _,_,_,a = data.T
 
     t = (a==0)
     data[..., :-1][t.T] = (0,0,0) # makes all transparent pixels pure black, which is automatically masked out when glassifying
     newim = Image.fromarray(data)
     return newim
-
 
 image = Image.open(imgpath)
 
