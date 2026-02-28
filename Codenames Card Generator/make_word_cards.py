@@ -6,7 +6,7 @@ import random
 
 os.chdir(__file__.rsplit("\\",1)[0] if len(__file__.rsplit("\\",1))>1 else os.getcwd())
 
-# Thanks to chatgpt for generating this btw
+# Thanks to chatgpt for generating this btw # back in 2023 when that was a novel thing to do
 
 # Constants for the PDF page size
 PAGE_WIDTH = 279.4  # in mm (letter size)
@@ -41,8 +41,6 @@ if len(sys.argv)>=2:
     words_list = [row[0].capitalize() for row in words_list]
 
 
-    
-
 # Calculate the number of cards that can fit on a single page
 cards_per_row = int((PAGE_WIDTH - 2 * BORDER_SIZE) // CARD_WIDTH)
 cards_per_column = int((PAGE_HEIGHT - 2 * BORDER_SIZE) // CARD_HEIGHT)
@@ -57,17 +55,17 @@ if len(words_list) % cards_per_page*2 != 0:
 pdf = FPDF(orientation='L', unit='mm', format='letter')
 
 # Initialize the prefered font
-pdf.add_font("footlight", fname="C:\Windows\Fonts\FTLTLT.TTF",uni=True)
-pdf.add_font("vivaldi", fname="C:\Windows\Fonts\VIVALDII.TTF",uni=True)
-pdf.add_font("script", fname="C:\Windows\Fonts\SCRIPTBL.TTF",uni=True)
-pdf.add_font("pristina", fname="C:\Windows\Fonts\PRISTINA.TTF",uni=True)
-pdf.add_font("richard", fname="C:\Windows\Fonts\POORICH.TTF",uni=True)
-pdf.add_font("parchment", fname="C:\Windows\Fonts\PARCHM.TTF",uni=True)
-pdf.add_font("old", fname="C:\Windows\Fonts\OLDENGL.TTF",uni=True)
-pdf.add_font("corsiva", fname="C:\Windows\Fonts\MTCORSVA.TTF",uni=True) # -> current favourite
-pdf.add_font("maiandra", fname="C:\Windows\Fonts\MAIAN.TTF",uni=True)
-pdf.add_font("lucidahand", fname="C:\Windows\Fonts\LHANDW.TTF",uni=True)
-pdf.add_font("lucidacallig", fname="C:\Windows\Fonts\LCALLIG.TTF",uni=True) # -> 2nd favourite
+#pdf.add_font("footlight", fname="C:\Windows\Fonts\FTLTLT.TTF",uni=True)
+#pdf.add_font("vivaldi", fname="C:\Windows\Fonts\VIVALDII.TTF",uni=True)
+#pdf.add_font("script", fname="C:\Windows\Fonts\SCRIPTBL.TTF",uni=True)
+#pdf.add_font("pristina", fname="C:\Windows\Fonts\PRISTINA.TTF",uni=True)
+#pdf.add_font("richard", fname="C:\Windows\Fonts\POORICH.TTF",uni=True)
+#pdf.add_font("parchment", fname="C:\Windows\Fonts\PARCHM.TTF",uni=True)
+#pdf.add_font("old", fname="C:\Windows\Fonts\OLDENGL.TTF",uni=True)
+pdf.add_font("corsiva", fname="fonts/Monotype_Corsiva.ttf",uni=True) # -> current favourite
+#pdf.add_font("maiandra", fname="C:\Windows\Fonts\MAIAN.TTF",uni=True)
+#pdf.add_font("lucidahand", fname="C:\Windows\Fonts\LHANDW.TTF",uni=True)
+pdf.add_font("lucidacallig", fname="fonts/LCALLIG.TTF",uni=True) # -> 2nd favourite
 
 
 # (Sorry for the sudden function definition we need it in the next loop)
@@ -89,7 +87,8 @@ def add_backings():
         pdf.multi_cell(CARD_WIDTH, pdf.font_size , "Codenames\nD&D edition", align='C', border = False)
 
 # Shuffle words list so an obvious pattern in front and back of cards doesn't emerge
-# (comment out to generate a specific order of cards)
+# (comment out to generate a specific order of cards, or change seed for different word ordering)
+random.seed(0xdeadbeef)
 random.shuffle(words_list)
 
 # Generate the PDF
