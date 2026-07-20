@@ -2,11 +2,13 @@
 
 from map_color import map_color, set_color_file, get_texture_filepaths
 from reference_maker import make_reference
-#from schematic_maker import *
 from PIL import Image
 import numpy as np
+import os
+from tkinter import filedialog
 
-set_color_file(input("Color file path: "))
+colorspace = filedialog.askopenfilename(title="Select Colorspace File", defaultextension="npy", initialdir=os.getcwd())
+set_color_file(colorspace)
 
 imgpath = input("Image path: ")
 imgpath = imgpath.strip("\"") # because by default copy as path adds quotes
