@@ -17,10 +17,12 @@ def _labToBytes(col: dict) -> tuple[int, int, int]:
             floor(_map(col["a"], -0.5, 0.5, 0, 255)), 
             floor(_map(col["b"], -0.5, 0.5, 0, 255)))
 
-def toOklab(color: tuple[int, int, int]) -> tuple[int, int, int]:
-    oklch = colortools_cx.rgb_to_oklch(*color)
+def toOklab(color: tuple[int, int, int] | tuple[int, int, int, int]) -> tuple[int, int, int] | tuple[int, int, int, int]:
+    head = color[:3]
+    tail = color[3:]
+    oklch = colortools_cx.rgb_to_oklch(*head)
     oklab = _lchToLab(oklch)
-    return _labToBytes(oklab)
+    return _labToBytes(oklab)+tail
     
 def getOklabDist(col1: tuple[int, int, int], col2: tuple[int, int, int]):
     return np.linalg.norm(np.asarray(col2)-np.asarray(col1))

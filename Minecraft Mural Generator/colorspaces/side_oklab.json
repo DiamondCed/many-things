@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "source_vanilla_survival_side",
+        "source_cobblemon"
+    ],
+    "antipresets": [
+        "shulker_boxes",
+        "glass",
+        "noisy",
+        "high_contrast",
+        "semitransparent"
+    ],
+    "color_format": "oklab"
+}
