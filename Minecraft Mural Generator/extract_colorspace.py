@@ -23,11 +23,11 @@ OKLAB="oklab"
 
 WINDOW_TITLE = "Extract Colorspace"
 
-presets = ["source_vanilla_survival_side","source_cobblemon"]
-anti_presets = ["shulker_boxes", "glass", "noisy", "high_contrast", "evo_stone_blocks", "light_blue_ore", "semitransparent"]
+presets = ["source_vanilla_survival_side","source_cobblemon_side"]
+anti_presets = ["shulker_boxes", "glass", "noisy", "high_contrast", "semitransparent", "holey", "evo_stone_blocks"]
 same_rule = NONE
 sampling_rule = AVERAGE
-color_format = RGB
+color_format = OKLAB
 
 def validate_same_rule(new, old):
     if(same_rule==NONE):
@@ -37,14 +37,11 @@ def validate_same_rule(new, old):
     elif(same_rule==PAIRS_MATCHING):
         return new//2!=old//2 or image_paths[new][0]!=image_paths[old][1] # allows non-paired entries as long as their files don't start with the same letter
 
-def add_final_entry(color, entry):
+def rgb_to_defined_format(color: tuple[int, int, int]|tuple[int,int,int,int]):
     if(color_format==RGB):
-        col_int = [min(round(color[i]),255) for i in range(len(color))]
-        final_entries[col_int[0], col_int[1], col_int[2]] = entry[1]
+        return [*color] # copy just in case
     elif(color_format==OKLAB):
-        oklabColor = toOklab(color)
-        final_entries[oklabColor[0], oklabColor[1], oklabColor[2]] = entry[1]
-    # I guess everything breaks if some other format is set
+        return toOklab(color)
 
 
 image_paths = get_texture_paths(presets, anti_presets)
@@ -62,27 +59,33 @@ for i, image_path in enumerate(image_paths):
         print(f"\"{image_path}\" is not a recognized image file")
         continue
     (w, h) = image.size
-    rgbColor: tuple[int,int,int]
+    
+    rgb_color: tuple[int,int,int]
+    final_color: tuple[int,int,int]
     if sampling_rule == CENTER:
-        rgbColor = image.getpixel((w//2, h//2))
+        rgb_color = image.getpixel((w//2, h//2))
+        final_color = rgb_to_defined_format(rgb_color)
     elif sampling_rule == AVERAGE:
         pixels = list(image.getdata())
         nonempty = []
         for pixel in pixels:
             if pixel[3]>0:
-                nonempty.append(pixel)
-        temp = Image.new("RGBA",(1,len(nonempty)))
+                formatted_pix = rgb_to_defined_format(pixel)
+                nonempty.append(formatted_pix)
+        temp = Image.new("RGBA",(1,len(nonempty))) # since we only want the mean this should be fine despite the data being oklab
         temp.putdata(nonempty)
-        rgbColor = ImageStat.Stat(temp).mean
+        final_color = ImageStat.Stat(temp).mean 
     elif sampling_rule == CORNER:
-        rgbColor = image.getpixel((0,0))
+        rgb_color = image.getpixel((0,0))
+        final_color = rgb_to_defined_format(rgb_color)
 
-    base_entries.append((rgbColor,i))
+    base_entries.append((final_color,i))
 print("Done")
 
 if MAX_DEPTH==1:
     for entry in base_entries:
-        add_final_entry(entry[0][0:3], ((),[entry[1]]))
+        col_int = [min(round(entry[0][i]),255) for i in range(len(entry[0]))]
+        final_entries[col_int[0], col_int[1], col_int[2]] = [entry[1]]
 else:
     gen = 0
     print("Combining colors... ", end="", flush=True)
@@ -104,11 +107,13 @@ else:
 
             new_entry = (new_color, [*curr_entry[1], added_entry[1]])
             if new_color[3]>=255-EPS or len(new_entry[1])>=MAX_DEPTH:
-                add_final_entry(new_color[0:3], new_entry)
+                final_entries[new_color[0], new_color[1], new_color[2]] = new_entry[1]
             else:
                 intermediate_entries.append(new_entry)
     print("Done")
 print(np.count_nonzero(final_entries))
+
+os.chdir("colorspaces")
 
 canWrite = False
 while not canWrite:

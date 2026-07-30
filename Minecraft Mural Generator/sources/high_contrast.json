@@ -16,5 +16,13 @@
     "source_vanilla\\smoker_side.png",
     "source_vanilla\\weathered_copper_bulb_lit.png",
     "source_vanilla\\weathered_copper_bulb_lit_powered.png",
-    "source_vanilla\\white_glazed_terracotta.png"
+    "source_vanilla\\white_glazed_terracotta.png",
+	"source_vanilla\\orange_glazed_terracotta.png",
+	"source_vanilla\\deepslate_redstone_ore.png",
+	"source_vanilla\\blue_glazed_terracotta.png",
+	"source_vanilla\\polished_basalt_side.png",
+	"source_vanilla\\blast_furnace_side.png",
+	"source_vanilla\\blast_furnace_front.png",
+    "source_vanilla\\furnace_front.png",
+    "source_vanilla\\observer_back.png"
 ]

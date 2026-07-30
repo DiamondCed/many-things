@@ -7,11 +7,12 @@ import numpy as np
 import os
 from tkinter import filedialog
 
-colorspace = filedialog.askopenfilename(title="Select Colorspace File", defaultextension="npy", initialdir=os.getcwd())
+colorspace = filedialog.askopenfilename(title="Select Colorspace File", defaultextension=".npy", initialdir=os.path.join(os.getcwd(),"colorspaces"))
 set_color_file(colorspace)
 
-imgpath = input("Image path: ")
-imgpath = imgpath.strip("\"") # because by default copy as path adds quotes
+imgpath = filedialog.askopenfilename(title="Select Image File", defaultextension=".png", initialdir=os.getcwd())
+#imgpath = input("Image path: ")
+#imgpath = imgpath.strip("\"") # because by default copy as path adds quotes
 
 def remove_transparency(image : Image.Image):
     if(not image.mode in ["RGBA","RGBa","LA","PA","La"]): # no transparency to remove in the first place

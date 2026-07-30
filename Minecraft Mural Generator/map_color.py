@@ -18,7 +18,7 @@ color_format = ""
 def set_color_file(filepath: str):
     global color_data, color_filename, texture_filepaths, color_format
     color_data = np.load(filepath.strip("\""), allow_pickle=True) # let the user deal with this error themselves
-    color_filename = os.path.basename(filepath)
+    color_filename = os.path.relpath(filepath)
     meta_filename = "".join(color_filename.split(".")[:-1])+".json"
     try:
         with open(meta_filename, "r") as file:
